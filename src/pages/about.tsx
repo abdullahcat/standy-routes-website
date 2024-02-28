@@ -23,7 +23,7 @@ function About() {
                 </p>
 
                 <p className="  max-w-xl  mt-6 md:block md:text-lg md:leading-relaxed">
-                    Bize katılın, Türkiye'nin dört bir yanında, bilinmeyenleri keşfedin, yeni maceralar yaratın. Standy ile gezgin ruhunuzu özgür bırakın!
+                    Bize katılın, Türkiye&apos;nin dört bir yanında, bilinmeyenleri keşfedin, yeni maceralar yaratın. Standy ile gezgin ruhunuzu özgür bırakın!
 
                 </p>
 

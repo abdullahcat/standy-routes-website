@@ -20,7 +20,7 @@ function Hero() {
                     </h1>
 
                     <p className="mx-auto mt-4  text-white max-w-xl sm:text-xl/relaxed">
-                        " turistik klişelerden uzak, yerel ve özgün deneyimler "
+                        &quot;turistik klişelerden uzak, yerel ve özgün deneyimler&quot;
                     </p>
 
                 </div>

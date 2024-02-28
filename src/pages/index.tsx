@@ -125,7 +125,7 @@ export default function Home() {
 
                                             <div className='ml-4 flex flex-col justify-center'>
                                                 <h2 className="text-2xl font-bold sm:text-3xl">
-                                                    Beta'ya Katıl!
+                                                    Beta&apos;ya Katıl!
                                                 </h2>
                                                 <p className="mt-2 text-gray-600">
                                                     iOS ve Android cihazlarda kullanılabilir.

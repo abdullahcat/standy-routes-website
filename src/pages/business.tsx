@@ -35,7 +35,7 @@ function Business() {
                     <svg className="w-8 h-8 text-standy-black   mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
                         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
                     </svg>
-                    <p className="text-standy-black">"Yeniliği destekleyin, çünkü değişim hayatın özüdür, bizi ileriye taşır. Durağanlık ise varoluşun sonunu getirir, yenilenme olmadan tıkanırız."</p>
+                    <p className="text-standy-black">Yeniliği destekleyin, çünkü değişim hayatın özüdür, bizi ileriye taşır. Durağanlık ise varoluşun sonunu getirir, yenilenme olmadan tıkanırız.</p>
                 </blockquote>
 
             </div>
@@ -52,11 +52,11 @@ function Business() {
                         </div>
 
                         <div className="lg:py-24">
-                            <h2 className="text-4xl font-bold  ">Türkiye'nin Dört Bir Yanına Ulaş: İşletmeni Standy Business ile Büyüt!
+                            <h2 className="text-4xl font-bold  ">Türkiye&apos;nin Dört Bir Yanına Ulaş: İşletmeni Standy Business ile Büyüt!
                             </h2>
 
                             <p className="mt-4  ">
-                                Standy Business'ın dinamik platformu, işletmenizin her köşesine tanıtım imkânı sunar, böylece markanızı en geniş kitlelere duyurmanızı sağlar. Hemen kaydolun, Türkiye'nin dört bir yanındaki potansiyel müşterilerle bağlantı kurma fırsatını kaçırmayın!
+                                Standy Business&apos;ın dinamik platformu, işletmenizin her köşesine tanıtım imkânı sunar, böylece markanızı en geniş kitlelere duyurmanızı sağlar. Hemen kaydolun, Türkiye&apos;nin dört bir yanındaki potansiyel müşterilerle bağlantı kurma fırsatını kaçırmayın!
 
 
                             </p>
@@ -188,7 +188,7 @@ function Business() {
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-standy-white p-4  "
                         >
-                            <h2 className="font-medium">Neden Standy Business'i tercih etmeliyim?</h2>
+                            <h2 className="font-medium">Neden Standy Business&apos;i tercih etmeliyim?</h2>
 
                             <svg
                                 className=" h-5 size-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -202,7 +202,7 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Standy Business'ı tercih etmek, işletmenizin tanıtım ve büyüme stratejilerinde benzersiz bir avantaj sağlar. Teknoloji ve veri analizi ile desteklenen hizmetlerimiz, doğru müşterilere ulaşmanızı kolaylaştırır, böylece zaman ve kaynaklarınızı en etkin şekilde kullanabilirsiniz.
+                            Standy Business&apos;ı tercih etmek, işletmenizin tanıtım ve büyüme stratejilerinde benzersiz bir avantaj sağlar. Teknoloji ve veri analizi ile desteklenen hizmetlerimiz, doğru müşterilere ulaşmanızı kolaylaştırır, böylece zaman ve kaynaklarınızı en etkin şekilde kullanabilirsiniz.
 
 
                         </p>
@@ -212,7 +212,7 @@ function Business() {
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-standy-white  p-4  "
                         >
-                            <h2 className="font-medium">Standy Business'in tanıtım süreci nasıl işler?</h2>
+                            <h2 className="font-medium">Standy Business&apos;in tanıtım süreci nasıl işler?</h2>
 
                             <svg
                                 className="size-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -226,7 +226,7 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Standy Business'ın tanıtım süreci, işletmelerin hedef kitlesine özel bir yaklaşımla tasarlanmıştır. Özellikle üniversitelerde ve sosyal medyada aktif olan kullanıcılarımızı, beğenebilecekleri mekanlarla eşleştiriyor, bu sayede işletmenize doğru kitleye doğrudan ulaşma imkânı sunuyoruz. Kullanıcıların ilgi alanları ve tercihleri doğrultusunda, onlara uygun mekanlar önererek hem işletmelerin tanıtımını yapıyor, hem de kullanıcılara kişiye özel bir deneyim sunuyoruz. Standy Business, hedef kitlenize en uygun şekilde ulaşmanızı sağlayarak, markanızın etkin ve anlamlı bir şekilde tanıtılmasına yardımcı olur.
+                            Standy Business&apos;ın tanıtım süreci, işletmelerin hedef kitlesine özel bir yaklaşımla tasarlanmıştır. Özellikle üniversitelerde ve sosyal medyada aktif olan kullanıcılarımızı, beğenebilecekleri mekanlarla eşleştiriyor, bu sayede işletmenize doğru kitleye doğrudan ulaşma imkânı sunuyoruz. Kullanıcıların ilgi alanları ve tercihleri doğrultusunda, onlara uygun mekanlar önererek hem işletmelerin tanıtımını yapıyor, hem de kullanıcılara kişiye özel bir deneyim sunuyoruz. Standy Business, hedef kitlenize en uygun şekilde ulaşmanızı sağlayarak, markanızın etkin ve anlamlı bir şekilde tanıtılmasına yardımcı olur.
 
 
                         </p>
