@@ -1,13 +1,15 @@
 "use client"; // This is a client component 👈🏽
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import Footer from './footer';
-/* eslint-disable @next/next/no-img-element */
+import MenuIcon from '@mui/icons-material/Menu';
+import { Article, Close, School, Storefront, Verified } from '@mui/icons-material';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const handleScroll = () => {
         const offset = window.scrollY;
         if (offset > 0) {
@@ -38,43 +40,67 @@ function Navbar() {
 
 
     return (
-        <header className={`fixed py-1 backdrop-blur-lg       text-standy-white w-full z-50 transition-all   ease-in-out  duration-200 ${isScrolled ? "border-b border-standy-white" : "    "}  `}>
-            <div className="container mx-auto w-full max-w-screen-xl px-4       flex justify-between ">
+        <header className={`   fixed text-black  bg-white py-2   w-full z-50 transition-all   ease-in-out  duration-200 ${isScrolled ? " shadow-md" : "     "}  `}>
+            <div className="container mx-auto w-full max-w-screen-xl  xl:px-0 px-4      flex justify-between ">
                 <div className="items-center flex-shrink-0 flex lg:px-0   py-2 ">
-                    <Link
-                        href={'/'}
-                        className='tracking-wide hover:text-standy-light-pink transition-all   ease-in-out  duration-300  mb-[-7px]  font-din-condensed text-4xl'>
-                        STANDY
-                    </Link>
+                    <div className=" items-center flex-row space-x-2 flex">
+
+                        <Link
+                            href={'/'}>
+                            <img src="standylogo.png" alt="Standy Logo" height={30} width={30} className="rounded-full" />
+                        </Link>
+
+                        <Link
+                            href={'/'}
+                            className='  mb-[-12px]	 tracking-wide text-standy-pink    font-din-condensed text-4xl'>
+                            STANDY
+                        </Link>
+
+                    </div>
                 </div>
-                <div className="items-center space-x-3 flex-shrink-0 hidden lg:flex">
+                <div className="items-center    space-x-8 flex-shrink-0 hidden  lg:flex">
 
-
-
-                    <Link rel="noopener noreferrer" href="/about" className="flex items-center inline-block px-2 py-0.5 rounded-md space-x-2 flex flex-row transition duration-200 ease-in-out hover:text-standy-black hover:bg-standy-light-pink ">
-                        Hakkımızda
+                    <Link rel="noopener noreferrer" href="/blog" className="  transition duration-200 ease-in-out hover:text-standy-pink  ">
+                        Blog
                     </Link>
 
-                    <Link rel="noopener noreferrer" href="/business" className="flex items-center inline-block px-2 py-0.5 rounded-md space-x-2 flex flex-row transition duration-200 ease-in-out hover:text-standy-black hover:bg-standy-light-pink ">
+
+                    <Link rel="noopener noreferrer" href="/creators" className="hover:text-standy-pink  transition duration-200 ease-in-out   ">
+                        Creators
+                    </Link>
+                    <Link rel="noopener noreferrer" href="/universities" className="hover:text-standy-pink  transition duration-200 ease-in-out   ">
+                        Universities
+                    </Link>
+                    <Link rel="noopener noreferrer" href="/business" className="hover:text-standy-pink  transition duration-200 ease-in-out   ">
                         Business
                     </Link>
-                    <Link rel="noopener noreferrer" href="https://www.linkedin.com/company/standy/jobs/" className="flex items-center inline-block px-2 py-0.5 rounded-md space-x-2 flex flex-row transition duration-200 ease-in-out hover:text-standy-black hover:bg-standy-light-pink ">
 
-                        Kariyer
+                    <div className=" border-l-2 h-6 border-black rounded-lg"></div>
+                    <Link
+                        className=" mx-2 inline-flex  px-5 py-2 rounded-lg   transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
+                        href="/standy-routes-waitlist"
+
+                    >
+                        Waitlist
                     </Link>
-
 
                 </div>
 
-                <div className='items-center flex lg:flex lg:hidden gap-2   flex-row'>
+                <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
+                    <Link
+                        className=" mx-2 inline-flex  px-5 py-2 rounded-lg   transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
+                        href="/standy-routes-waitlist"
 
-                    {isMenuOpen ? <button onClick={toggleMenu} className=" e inline-block px-2 py-0.5 rounded-lg space-x-2 flex flex-row transition duration-300 ease-in-out   hover:text-standy-black hover:bg-standy-light-pink ">
-                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="  ">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
+                    >
+                        Waitlist
+                    </Link>
 
-                    </button> : <button onClick={toggleMenu} className=" e inline-block px-2 py-0.5  rounded-lg space-x-2 flex flex-row transition duration-300 ease-in-out  hover:text-standy-black hover:bg-standy-light-pink ">
-                        Menü
+                    {isMenuOpen ? <button onClick={toggleMenu} className=" ">
+                        <Close></Close>
+
+                    </button> : <button onClick={toggleMenu} className="  ">
+                        <MenuIcon></MenuIcon>
+
                     </button>}
 
 
@@ -84,43 +110,60 @@ function Navbar() {
                         {/* Duplicate your menu here for mobile */}
                         <ul>
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="/about">
-                                <li className="text-white flex flex-row items-center justify-between px-5 py-5 hover:text-black hover:bg-white">
-                                    <p className="margin-right: 10px;">Hakkımızda</p>
-                                    <div className='rotate-90'>
-                                        <svg width="20" height="20" className='rotate-180' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 5V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M19 12L12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
+                            <Link onClick={() => setIsMenuOpen(false)} href="/blog">
+                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
+
+                                    <div className='space-x-2 flex flex-row'>
+
+                                        <Article></Article>
+                                        <p>Blog</p>
                                     </div>
+                                    <ArrowForwardIcon></ArrowForwardIcon>
+                                </li>
+
+                            </Link>
+                            <Link onClick={() => setIsMenuOpen(false)} href="/creators">
+                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
+
+                                    <div className='space-x-2 flex flex-row'>
+
+                                        <Verified></Verified>
+                                        <p >Creators</p>
+
+                                    </div>
+                                    <ArrowForwardIcon></ArrowForwardIcon>
+                                </li>
+
+                            </Link>
+                            <Link onClick={() => setIsMenuOpen(false)} href="/universities">
+                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
+
+                                    <div className='space-x-2 flex flex-row'>
+
+                                        <School></School>
+                                        <p >Universities</p>
+                                    </div>
+                                    <ArrowForwardIcon></ArrowForwardIcon>
                                 </li>
 
                             </Link>
                             <Link onClick={() => setIsMenuOpen(false)} href="/business">
-                                <li className="text-white flex flex-row items-center justify-between px-5 py-5 hover:text-black hover:bg-white">
-                                    <p className="margin-right: 10px;">Business</p>
-                                    <div className='rotate-90'>
-                                        <svg width="20" height="20" className='rotate-180' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 5V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M19 12L12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
+                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
+
+                                    <div className='space-x-2 flex flex-row'>
+
+                                        <Storefront></Storefront>
+                                        <p >Business</p>
                                     </div>
+                                    <ArrowForwardIcon></ArrowForwardIcon>
                                 </li>
 
                             </Link>
-                            <Link onClick={() => setIsMenuOpen(false)} href="https://www.linkedin.com/company/standy/jobs/">
-                                <li className="text-white flex flex-row items-center justify-between px-5 py-5 hover:text-black hover:bg-white">
-                                    <p className="margin-right: 10px;">Kariyer</p>
-                                    <div className='rotate-90'>
-                                        <svg width="20" height="20" className='rotate-180' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 5V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M19 12L12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </div>
-                                </li>
-                            </Link>
+
+
 
                         </ul>
+
 
                     </div>
                 )}

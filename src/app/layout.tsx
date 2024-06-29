@@ -7,9 +7,25 @@ import localFont from 'next/font/local'
 
 // Font files can be colocated inside of `app`
 const ProductSans = localFont({
-  src: 'fonts/Product Sans Regular.ttf',
+  src: [
+    {
+      path: 'fonts/Product Sans Regular.ttf',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: 'fonts/Product Sans Bold.ttf',
+      weight: '700',
+      style: 'normal'
+    },
+    {
+      path: 'fonts/ProductSans-Thin.ttf',
+      weight: '100',
+      style: 'normal'
+    },
+  ],
   display: 'swap',
-})
+});
 const DINCondensed = localFont({
   src: 'fonts/DINCondensed-Bold.ttf',
   display: 'swap',
@@ -22,10 +38,8 @@ interface LayoutProps {
 const RootLayout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className={ProductSans.className} >
-      <header >
-        <Navbar />
-      </header>
-      <main className='bg-standy-black'>{children}</main>
+
+      <main className='bg-white light'>{children}</main>
       <footer  >
         <Footer />
       </footer>

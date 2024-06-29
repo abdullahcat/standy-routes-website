@@ -2,7 +2,7 @@
 
 import RootLayout from '@/app/layout';
 import { AppProps } from 'next/app';
-import 'src/app/globals.css';
+import '@/app/globals.css'
 import Head from 'next/head';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
@@ -24,9 +24,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                 <link rel="icon" type="image/png" sizes="96x96" href="/favicon_package/favicon-96x96.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package/favicon-16x16.png" />
                 <link rel="manifest" href="/favicon_package/manifest.json" />
-                <meta name="msapplication-TileColor" content="#121212" />
+                <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/favicon_package/ms-icon-144x144.png" />
-                <meta name="theme-color" content="#121212" />
+                <meta name="theme-color" content="#ffffff" />
             </Head>
             <Component {...pageProps} />
         </RootLayout>

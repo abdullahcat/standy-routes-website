@@ -14,6 +14,12 @@ const Config = {
         'sans': ['Product Sans', 'sans-serif'], // Using Product Sans as default sans-serif font
         'din-condensed': ['DIN Condensed', 'sans-serif'],
       },
+      fontWeight: {
+        thin: 100,
+        regular: 400,
+        bold: 700,
+      },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
