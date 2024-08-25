@@ -1,4 +1,3 @@
-import CTA from "@/components/cta";
 import Navbar from "@/components/navbar";
 import Head from "next/head";
 import Link from "next/link";
@@ -17,7 +16,7 @@ function Blog() {
                 <header>
                     <h2 className="  xl:text-center text-gray-900  text-5xl">Standy Blog</h2>
 
-                    <p className="mt-4 xl:text-center xl:mx-auto max-w-md text-gray-500">
+                    <p className="mt-4  xl:text-center xl:mx-auto max-w-md text-gray-500">
                         Standy ile şehrini yeniden keşfetmeye ve kazanmaya hazır mısın? Standy Blog'da sana ilham verecek içerikler, şehrin gizli köşeleri, en iyi rotalar, faydalı öneriler ve çok daha fazlası seni bekliyor!                    </p>
                 </header>
 
@@ -25,7 +24,7 @@ function Blog() {
                     <li>
                         <Link
                             href="/blog/turist-degil-gezgin-ol"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out     flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out     flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/5270675/pexels-photo-5270675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}
                         >
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
@@ -39,7 +38,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/standy-assistant"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out      flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out      flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/14919124/pexels-photo-14919124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}
                         >
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
@@ -52,7 +51,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/routes"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/5745818/pexels-photo-5745818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}
                         >
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
@@ -66,7 +65,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/summer-2024"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/18961673/pexels-photo-18961673/free-photo-of-deniz-plaj-tatil-insanlar.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load)` }}
                         >
 
@@ -80,7 +79,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/standy-region-codes"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(blog/region-codes/region-codes-img-1.png)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">4 Jan 2024 | Araştırma</h3>
@@ -93,7 +92,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/gece-hayati-olmazsa-olmaz"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">12 Jan 2024 | Turizm</h3>
@@ -106,7 +105,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/bisikletinizi-kapin"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/3082227/pexels-photo-3082227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">5 Jan 2024 | Turizm</h3>
@@ -119,7 +118,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/adrenalin-mi-lazim"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/7925746/pexels-photo-7925746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">10 Jan 2024 | Turizm</h3>
@@ -133,7 +132,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/cocuklar-olmadan-olmaz"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/15171578/pexels-photo-15171578/free-photo-of-a-girl-sitting-on-his-fathers-shoulders-near-a-field-with-giraffes-in-a-zoo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">20 Jan 2024 | Turizm</h3>
@@ -146,7 +145,7 @@ function Blog() {
                     <li>
                         <a
                             href="/blog/festivale-mi-konsere-mi"
-                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-lg transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/1259614/pexels-photo-1259614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
                             <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
                                 <h3 className="   text-left  ">1 Feb 2024 | Turizm</h3>

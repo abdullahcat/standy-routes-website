@@ -2,13 +2,14 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Article, Close, School, Storefront, Verified } from '@mui/icons-material';
+import { Article, Close, Login, School, Storefront, SupportAgent, Verified } from '@mui/icons-material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-function Navbar() {
+function BusinessNavbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const handleScroll = () => {
         const offset = window.scrollY;
         if (offset > 0) {
@@ -16,67 +17,79 @@ function Navbar() {
         } else {
             setIsScrolled(false);
         }
-    };
+    }
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll)
         return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen); // Toggle the state of the menu
     };
 
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
+
     return (
-        <header className={`fixed text-black bg-white py-2 w-full lg:border-none border-b z-50 transition-all ease-in-out duration-200 ${isScrolled ? "" : ""}`}>
+
+        <header className={`fixed text-mimi-pink bg-standy-dark-pink py-2 w-full lg:border-none   z-50 transition-all ease-in-out duration-200 ${isScrolled ? "" : ""}`}>
             <div className="container mx-auto w-full max-w-screen-xl xl:px-0 px-4 flex justify-between">
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
-                        <Link href={'/'}>
-                            <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
-                        </Link>
-                        <Link href={'/'} className="font-condensed uppercase mb-1  font-semibold text-standy-pink text-4xl">
-                            Standy
-                        </Link>
+                        <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
+                        <div className="font-condensed uppercase mb-1  font-semibold   text-4xl">
+                            BUSINESS
+                        </div>
                     </div>
 
                     <div className='space-x-1 items-center  flex-shrink-0 hidden lg:flex'>
-                        <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
+                        <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out   hover:bg-mimi-pink hover:text-standy-black rounded-full px-3 py-2">
                             Personal
                         </Link>
-                        <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
+                        <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out   hover:bg-mimi-pink text-standy-black bg-cherry-blossom-pink rounded-full px-3 py-2">
                             Business
                         </Link>
                     </div>
                 </div>
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
-                    <Link rel="noopener noreferrer" href="/standy-plus" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Standy+
+
+                    <Link rel="noopener noreferrer" href="https://support.standyroutes.com/"
+                        target='_blank'
+                        className="transition duration-200 ease-in-out hover:bg-mimi-pink  hover:text-standy-black rounded-full px-3 py-1 ">
+                        Destek
                     </Link>
-                    <Link rel="noopener noreferrer" href="/universities" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Üniversiteler
-                    </Link>
-                    <Link rel="noopener noreferrer" href="/blog" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Blog
+                    <Link rel="noopener noreferrer" href="https://business.standyroutes.com/"
+                        target='_blank'
+                        className="transition duration-200 ease-in-out hover:bg-mimi-pink  hover:text-standy-black rounded-full px-3 py-1 ">
+                        Giriş Yap
                     </Link>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/standy-routes-waitlist"
+                        href="https://business.standyroutes.com/"
+                        target='_blank'
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
                     >
-                        Waitlist
+                        Başlayalım
                     </Link>
                 </div>
 
                 {/* Mobile Menu */}
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/standy-routes-waitlist"
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
+                        href="https://business.standyroutes.com/"
+                        target='_blank'
                     >
-                        Waitlist
+                        Başlayalım
                     </Link>
 
                     {isMenuOpen ? (
@@ -95,10 +108,10 @@ function Navbar() {
                             <Link onClick={() => setIsMenuOpen(false)} href="/blog">
                                 <li className="  bg-white  border-t flex flex-row items-center justify-between px-4 py-5  ">
                                     <div className='space-x-1 items-center  flex-shrink-0 lg:flex'>
-                                        <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
+                                        <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out text-standy-black hover:bg-gray-100 rounded-full px-3 py-2">
                                             Personal
                                         </Link>
-                                        <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
+                                        <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink  rounded-full px-3 py-2">
                                             Business
                                         </Link>
                                     </div>
@@ -106,13 +119,14 @@ function Navbar() {
                             </Link>
 
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="/standy-plus">
+                            <Link onClick={() => setIsMenuOpen(false)} href="https://support.standyroutes.com/"
+                                target='_blank'>
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
 
                                     <div className='space-x-2 flex flex-row'>
 
-                                        <Verified></Verified>
-                                        <p >Standy+</p>
+                                        <SupportAgent></SupportAgent>
+                                        <p >Destek</p>
 
                                     </div>
                                     <ArrowForwardIcon></ArrowForwardIcon>
@@ -120,31 +134,24 @@ function Navbar() {
 
                             </Link>
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="/universities">
+                            <Link onClick={() => setIsMenuOpen(false)} href="https://business.standyroutes.com/"
+                                target='_blank'>
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
                                     <div className='space-x-2 flex flex-row'>
-                                        <School></School>
-                                        <p >Üniversiteler</p>
+                                        <Login></Login>
+                                        <p >Giriş Yap</p>
                                     </div>
                                     <ArrowForwardIcon></ArrowForwardIcon>
                                 </li>
 
-                            </Link> <Link onClick={() => setIsMenuOpen(false)} href="/blog">
-                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
-                                    <div className='space-x-2 flex flex-row'>
-                                        <Article />
-                                        <p>Blog</p>
-                                    </div>
-                                    <ArrowForwardIcon />
-                                </li>
                             </Link>
 
                         </ul>
                     </div>
                 )}
             </div>
-        </header>
+        </header >
     );
 }
 
-export default Navbar;
+export default BusinessNavbar;

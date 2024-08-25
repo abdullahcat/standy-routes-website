@@ -10,20 +10,18 @@ function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 xl:px-0  lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="    mb-6 md:mb-0">
-                        <div className=" items-center flex-row space-x-2 flex">
-                            <img src="/standylogo.png" alt="Standy Logo" height={30} width={30} className="rounded-full" />
-
-                            <Link
-                                href={'/'}
-                                className='  mb-[-12px]	 tracking-wide text-standy-pink    font-din-condensed text-4xl'>
-                                STANDY
+                        <div className="flex items-center justify-center flex-row space-x-1">
+                            <Link href={'/'}>
+                                <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
                             </Link>
-
+                            <Link href={'/'} className="font-condensed uppercase mb-1  font-semibold text-standy-pink text-4xl">
+                                Standy
+                            </Link>
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide uppercase font-din-condensed ">BASIN</h2>
+                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Basın</h2>
                             <ul  >
                                 <li className="mb-4">
                                     <a href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy%20Design%20Outlines.pdf?alt=media&token=b1e2eecc-1c0d-4794-9d52-f2bf4857935c" className="hover:underline">Basın Kiti</a>
@@ -33,7 +31,7 @@ function Footer() {
                         </div>
 
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide uppercase font-din-condensed ">Şirket</h2>
+                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Şirket</h2>
                             <ul  >
                                 <li className="mb-4">
                                     <Link href="/faq" className="hover:underline">SSS</Link>
@@ -45,7 +43,7 @@ function Footer() {
                         </div>
 
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide uppercase font-din-condensed ">YASAL</h2>
+                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Yasal</h2>
                             <ul  >
                                 <li className="mb-4">
                                     <Link href="/privacy-policy" className="hover:underline">Gizlilik Politikası</Link>
@@ -63,17 +61,17 @@ function Footer() {
                     <span className="text-sm  sm:text-center ">© 2024 <a href="https://standy.tech/" className="hover:underline">Standy Tech™</a>. Tüm Hakları Saklıdır.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <a href="https://www.instagram.com/standyroutes" className=" hover:text-standy-light-pink">
+                        <a href="https://www.instagram.com/standyroutes" className=" hover:text-rose-red">
                             <Instagram></Instagram>
 
                             <span className="sr-only">Instagram</span>
                         </a>
-                        <a href="https://x.com/standyroutes" className="  hover:text-standy-light-pink">
+                        <a href="https://x.com/standyroutes" className="  hover:text-rose-red">
                             <X></X>
                             <span className="sr-only">Twitter</span>
 
                         </a>
-                        <a href="https://linkedin.com/company/standy" className=" hover:text-standy-light-pink">
+                        <a href="https://linkedin.com/company/standy" className=" hover:text-rose-red">
                             <LinkedIn></LinkedIn>
                             <span className="sr-only">LinkedIn</span>
                         </a>

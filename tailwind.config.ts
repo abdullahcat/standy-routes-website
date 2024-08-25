@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 // tailwind.config.js
 
@@ -11,8 +12,8 @@ const Config = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Product Sans', 'sans-serif'], // Using Product Sans as default sans-serif font
-        'din-condensed': ['DIN Condensed', 'sans-serif'],
+        condensed: ['"Barlow Condensed"', ...defaultTheme.fontFamily.sans]
+
       },
       fontWeight: {
         thin: 100,
@@ -27,10 +28,17 @@ const Config = {
       },
       colors: {
         "standy-pink": "#E91E63",
-        "standy-light-pink": "#FCA1C7",
-        "standy-dark-pink": "#AD104A",
-        "standy-black": "#121212",
-        "standy-white": "#F2F0EA",
+        "standy-light-pink": "#FFE0E9",
+        "standy-dark-pink": "#C2185B",
+        "standy-black": "#1A1A1A",
+        "standy-white": "#FAF9F9",
+        "cherry-blossom-pink": "#FFB3C9",
+        "dogwood-rose": "#D81B60",
+        "rose-red": "#C2185B",
+        "mimi-pink": "#FFE0E9",
+        "cerise": "#E91E63",
+
+
       }
     },
   },

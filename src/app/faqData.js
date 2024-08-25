@@ -13,6 +13,10 @@ export const faqData = [
             },
             {
                 question: "Standy kullanmak için ücret ödemem gerekiyor mu?",
+                answer: "Standy uygulamasını indirmek ve içindeki yüzlerce rota ile keşfe başlamak tamamen ücretsiz. Ancak anlaşmalı yüzlerce mekanda geçerli indirimlerden yararlanmak için Standy+ aboneliği gerektirir."
+            },
+            {
+                question: "Standy kullanmak için ücret ödemem gerekiyor mu?",
                 answer: "Standy uygulamasını indirmek, rota ve indirimleri kullanmak gibi birçok özellik tamamen ücretsizdir. Ancak, yeni geliştirilen ek özellikler ve özel içerikler premium abonelik gerektirebilir."
             },
             {
@@ -45,49 +49,45 @@ export const faqData = [
             },
             {
                 question: "İşletmemi nasıl Standy ile ortak yapabilirim?",
-                answer: "Standy ile ortaklık kurmak çok kolay. Detaylı bilgi ve başvuru formu için bu sayfayı inceleyebilirsiniz."
+                answer: "Standy ile ortaklık kurmak çok kolay. Detaylı bilgi için işletme sayfamızı incele."
             },
             {
                 question: "Üniversite öğrencisiyim. Standy’nin bana sunduğu ekstra hizmetler var mı?",
-                answer: "Evet, Standy üniversite öğrencilerine özel indirimler, etkinlikler ve özel rotalar sunmanın yanı sıra, üniversite temsilcisi olma fırsatı da sağlar. Üniversite temsilcisi olarak, özel indirimler ve arkadaşlarınıza indirim sağlama imkanı gibi ek avantajlardan faydalanabilirsiniz. Detaylı bilgi için bu sayfayı inceleyebilirsin."
+                answer: "Evet, Standy üniversite öğrencilerine özel indirimler, etkinlikler ve özel rotalar sunmanın yanı sıra, üniversite temsilcisi olma fırsatı da sağlar. Üniversite temsilcisi olarak, özel indirimler ve arkadaşlarınıza indirim sağlama imkanı gibi ek avantajlardan faydalanabilirsiniz."
             }
         ]
     },
     {
-        category: "Creators",
+        category: "Standy+",
         questions: [
             {
-                question: "Standy Creator Olarak Ne Tür İçerikler Hazırlamam Beklenir?",
-                answer: "Standy için şehir keşifleri, özel rota önerileri, yerel mekan incelemeleri ve kullanıcıların ilgisini çekecek etkinliklerle ilgili içerikler hazırlamanız beklenir."
+                question: "Standy+ nedir?",
+                answer: "Standy+ bir abonelik servisidir, kullanıcılara özel sayısız indirimler, kampanyalar ve daha birçok özellik sunar."
             },
             {
-                question: "Standy Creator Olarak Hangi Avantajlardan Yararlanabilirim?",
-                answer: "Creatorlarımıza özel etkinliklere davetler, Standy platformunda öne çıkma fırsatı, ve çeşitli indirimler sunuyoruz."
+                question: "Standy+ aboneliği nasıl satın alınır?",
+                answer: "Standy uygulaması içerisindeki “Profil” bölümünden Standy+ aboneliğinizi kolayca oluşturabilirsiniz."
             },
             {
-                question: "İçeriklerim Standy'de Nasıl Yayınlanır?",
-                answer: "Gönderdiğiniz içerikler, Standy editör ekibi tarafından incelendikten sonra uygulamamızda ve web sitemizde yayınlanır."
+                question: "Standy+ abonelik ücreti nedir?",
+                answer: "Standy+ abonelik ücreti aylık veya yıllık olarak belirlenmiş olup, mevcut fiyatlandırma için uygulamamızı ziyaret edebilirsiniz."
             },
             {
-                question: "Standy Creator Olarak Nasıl Katkı Sağlarım?",
-                answer: "İçeriklerinizle Standy kullanıcılarının şehri keşfetme deneyimlerini zenginleştirir, yeni mekanlar ve etkinlikler önererek kullanıcıların seçeneklerini genişletirsiniz."
+                question: "Standy+ aboneliği hangi özellikleri içerir?",
+                answer: "Abonelik, özel indirimler, öncelikli etkinlik davetleri, bölgenizdeki mekanlarda ekstra indirimler ve bize ilettiğiniz mekanlarda sizin özel indirim kazanma şansı gibi özellikleri içerir. Daha fazlası için bu Standy+ sayfasını ziyaret edebilirsiniz."
             },
             {
-                question: "İçeriklerim İçin Ödeme Alabilir miyim?",
-                answer: "İçeriklerinize bağlı olarak performans bazlı ödemeler ve özel projeler için bütçeler belirlenmektedir. Detaylar, işbirliği yapmaya başladığınızda sizinle paylaşılır."
+                question: "Standy+ aboneliği ile indirim nasıl kullanılır?",
+                answer: "Anlaşmalı işletmelerde ödeme yaparken kasadaki QR kodu, Standy > Kampanya > Kampanya Kullan bölümüne okutarak kullanabilirsiniz."
             },
             {
-                question: "Standy Creator Olmak İçin Hangi Kriterleri Karşılamam Gerekir?",
-                answer: "Şehrinizdeki gezilecek yerler ve şehrin kültürü hakkında bilgi sahibi olmanız beklenir. Bunun yanında düzenli olarak kaliteli içerik üretebilmeniz önemlidir."
+                question: "Standy+ aboneliğimi nasıl iptal edebilirim?",
+                answer: "Aboneliğinizi, Standy uygulamasındaki hesap ayarlarınızdan iptal edebilirsiniz."
             },
             {
-                question: "Standy Creator Olarak Ne Sıklıkla İçerik Göndermem Gerekir?",
-                answer: "İçerik gönderme sıklığınız, sizinle yapılacak olan anlaşmaya bağlı olarak değişebilir. Genellikle, aylık veya haftalık düzenli gönderimler beklenir, ancak bu, projeye ve ihtiyaca göre ayarlanabilir."
+                question: "Standy+ aboneliği yenilenir mi?",
+                answer: "Evet, aboneliğiniz otomatik olarak seçtiğiniz ödeme döngüsüne göre yenilenir."
             },
-            {
-                question: "Standy Creator Ekibe Nasıl Katılabilirim?",
-                answer: "Standy Creator olmak çok kolay. Sen de başvur, bir çok yeni fırsatı kazanma şansını yakala! Başvuru için buraya tıklayınız."
-            }
         ]
     },
     {
@@ -100,6 +100,10 @@ export const faqData = [
             {
                 question: "Standy Üniversite Temsilcisi Olarak Hangi Avantajları Elde Ederim?",
                 answer: "Temsilci olarak, özel indirimler, arkadaşlarınıza sağlayacağınız indirim kodları ve sevdiğiniz mekanlarda ekstra fırsatlar gibi birçok avantajdan faydalanabilirsiniz."
+            },
+            {
+                question: "Temsilci Olarak Ne Tür Ödüller Kazanabilirim?",
+                answer: "Üniversitenizdeki Standy kullanıcı sayısını artırarak çeşitli ödüller ve teşvikler kazanabilirsiniz. Bunlar arasında okulunuzda oluşturduğunuz etkinliğe sponsorluklar ve para ödülleri, özel etkinliklere davetler ve Standy merchandise ürünleri bulunmaktadır."
             },
             {
                 question: "Temsilci Olarak Görevlerim Neler Olacak?",
@@ -137,6 +141,18 @@ export const faqData = [
             {
                 question: "Standy kullanıcılarına sunduğumuz indirim oranını kendimiz belirleyebilir miyiz?",
                 answer: "Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak, kullanıcıların ilgisini çekmek ve rekabet avantajı sağlayabilmek için önerdiğimiz belli oranlar var. Genellikle, iş ortaklarımız %10 ila %20 arasında indirim sunarlar."
+            },
+            {
+                question: "Standy+ kullanıcılarına sunduğumuz indirim veya kampanyaları kendim belirleyebilir miyim?",
+                answer: "Evet, Standy ile anlaşma sırasında dilerseniz yüzdelik, dilerseniz toplam tutardan indirim, dilerseniz belli menülerde geçerli indirimler şeklinde seçebilirsiniz. Bu indirimlerin miktarlarını minimum değerlerin üstünde istediğiniz değerde belirleyebilirsiniz. Unutmayın, ne kadar indirim o kadar müşteri demek!"
+            },
+            {
+                question: "Standy'deki ortaklık anlaşması süresi ne kadar?",
+                answer: "Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez. "
+            },
+            {
+                question: "Standy aboneliğimi istediğim zaman iptal edebilir miyim?",
+                answer: "Evet, Standy ile yapılan abonelikler, size maksimum esneklik sağlamak amacıyla her zaman iptal edilebilir. Aboneliğinizi iptal etmek için, business konsol üzerinden müşteri hizmetleri ekibimizle iletişime geçerek işleminizi kolayca gerçekleştirebilirsiniz."
             },
             {
                 question: "Standy ortaklarına ne tür destekler sağlanıyor?",

@@ -1,14 +1,14 @@
 function BusinessTestimonials() {
     return (
 
-        <section className="bg-standy-light-pink xl:mx-auto max-w-screen-xl mx-4 mb-10 rounded-lg" >
-            <div className="mx-auto max-w-screen-xl px-8 py-4    lg:py-10">
-                <h2 className="xl:text-center   text-3xl">
+        <section className="     " >
+            <div className="mx-auto max-w-screen-xl px-8 py-8    lg:py-10">
+                <h2 className=" text-center   text-4xl">
                     Bizi Keşfeden Müşterilerimizin Değerli Görüşleri
                 </h2>
 
                 <div className=" mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-                    <blockquote className="rounded-lg bg-standy-white p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-2xl bg-standy-white p-6 shadow-sm sm:p-8">
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""
@@ -19,7 +19,7 @@ function BusinessTestimonials() {
                             <div>
 
                                 <p className="  text-lg  text-gray-900">Emre Sefa Kadirhan</p>
-                                <p className="   text-xs  text-gray-600">Yerel Lokanta Sahibi</p>
+                                <p className="   text-xs  text-gray-600">Yerel Kafe Sahibi</p>
 
                             </div>
                         </div>
@@ -27,7 +27,7 @@ function BusinessTestimonials() {
                         <p className="mt-4 text-gray-700">
                             Kafemin konumu gereği birçok farklı kafe ile rekabet halindeyim. Müşterilere mekanımı cezbetmek için ekstra fırsatlar sunmam gerekiyordu. Standy tam da bana göre.                         </p>
                     </blockquote>
-                    <blockquote className="rounded-lg bg-standy-white p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-2xl bg-standy-white p-6 shadow-sm sm:p-8">
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""
@@ -46,7 +46,7 @@ function BusinessTestimonials() {
                         <p className="mt-4 text-gray-700">
                             Standy’nin kafe ve restoranlara sunduğu bütün bu fırsatlara 0 risk ve ücret ile ulaşabilmek gerçekten inanılmaz. Bana sunulan hizmetten çok memnunum.                                                      </p>
                     </blockquote>
-                    <blockquote className="rounded-lg bg-standy-white p-6 shadow-sm sm:p-8">
+                    <blockquote className="rounded-2xl bg-standy-white p-6 shadow-sm sm:p-8">
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""

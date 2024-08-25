@@ -1,6 +1,5 @@
-import CreatorsNavbar from "@/components/creator/creatorsNavbar";
-import UniCTA from "@/components/creator/uniCTA";
-import UniNavbar from "@/components/creator/uniNavbar";
+import Navbar from "@/components/navbar";
+import UniCTA from "@/components/university/cta";
 import { Campaign, CardGiftcard, Discount, Groups, People, QrCode, ShowChart } from "@mui/icons-material";
 import Head from "next/head";
 import Link from "next/link";
@@ -14,7 +13,7 @@ function Universities() {
             </Head>
 
             <header >
-                <UniNavbar />
+                <Navbar />
             </header>
 
 
@@ -28,7 +27,7 @@ function Universities() {
                 <div
                     className="relative text-left px-4 xl:px-0 mx-auto max-w-screen-xl   py-32   lg:flex lg:h-screen lg:items-center "
                 >
-                    <div className=" lg:px-8 px-4 lg:max-w-xl rounded-lg py-20 bg-standy-white  sm:px-6 ltr:sm:text-left ">
+                    <div className=" lg:px-8 px-4 lg:max-w-xl rounded-2xl py-20 bg-standy-white  sm:px-6 ltr:sm:text-left ">
                         <h1 className="text-5xl  text-standy-black  ">
                             Üniversite <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
                                 <span className="relative text-white"> temsilcimiz </span>
@@ -41,8 +40,9 @@ function Universities() {
                         <div className="mt-4 items-center flex flex-wrap gap-4 text-center">
 
                             <Link
-                                className="   px-5 py-2 rounded-lg flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
-                                href="/apply-university"
+                                className=" px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
+                                href="https://applyuniversity.standyroutes.com"
+                                target="_blank"
 
                             >
                                 Başvur
@@ -56,7 +56,7 @@ function Universities() {
             <section className="xl:py-10">
                 <div className="relative px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
                     <div className="absolute inset-0">
-                        <div className="absolute inset-y-0 z-0 w-full h-full bg-standy-white rounded-lg lg:w-3/4" />
+                        <div className="absolute inset-y-0 z-0 w-full h-full bg-standy-white rounded-2xl lg:w-3/4" />
 
                     </div>
 
@@ -112,7 +112,7 @@ function Universities() {
                             </div>
                             <div>
                                 <img
-                                    className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                                    className="object-cover w-full h-56 rounded-2xl shadow-lg sm:h-96"
                                     src="https://images.pexels.com/photos/9490231/pexels-photo-9490231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                     alt=""
                                 />
@@ -129,7 +129,7 @@ function Universities() {
                     <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
                         <div>
                             <img
-                                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                                className="object-cover w-full h-56 rounded-2xl shadow-lg sm:h-96"
                                 src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                 alt=""
                             />
@@ -140,8 +140,6 @@ function Universities() {
                                     Temsilci olarak ne yapmam gerekir?
 
                                 </h2>
-                                <p className="text-base   md:text-lg">
-                                    Standy üniversite temsilcisi olarak yapman gerekenler çok basit.                                 </p>
                             </div>
                             <div className="grid gap-8 row-gap-8 sm:grid-cols-2">
                                 <div>
@@ -174,7 +172,7 @@ function Universities() {
                     </h2>
                     <details className="group [&_summary::-webkit-details-marker]:hidden" open>
                         <summary
-                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-standy-white p-4  "
+                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white p-4  "
                         >
                             <h2 className=" ">Üniversite Temsilcisi Olmak İçin Hangi Şartlar Aranıyor?</h2>
 
@@ -197,7 +195,7 @@ function Universities() {
 
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                         <summary
-                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-standy-white  p-4  "
+                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
                             <h2 className=" ">Standy Üniversite Temsilcisi Olarak Hangi Avantajları Elde Ederim? </h2>
 
@@ -220,7 +218,7 @@ function Universities() {
                     </details>
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                         <summary
-                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-standy-white  p-4  "
+                            className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
                             <h2 className=" ">Temsilci Olarak Görevlerim Neler Olacak?</h2>
 
@@ -245,7 +243,7 @@ function Universities() {
                     <div className="xl:text-center">
 
                         <Link
-                            className="  inline-flex px-5 py-2 rounded-lg flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
+                            className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
                             href="/faq"
                         >
                             Daha fazla

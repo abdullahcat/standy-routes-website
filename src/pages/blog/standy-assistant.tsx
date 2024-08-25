@@ -160,7 +160,7 @@ function Blog() {
                 </div>
 
                 <div className="max-w-screen-md text-xl leading-loose mx-auto text-left">
-                    Hadi Standy uygulamasını açın, Standy Assistant'ın size rehberlik etmesine izin verin ve şehrin sizin için sakladığı sürprizleri keşfedin. Belki de şehrin en romantik restoranını veya en lezzetli sokak yemeğini siz keşfedeceksiniz!
+                    Hadi Standy uygulamasını açın, Standy Assistant'ın size rehberlik etmesine izin verin ve şehrin sizin için sakladığı sürprizleri keşfedin. Belki de şehrin en romantik restoranını veya en lezzetli sokak yemeğini siz keşfedeceksiniz! Standy Assisstant çok yakında hizmetinizde!
                 </div>
             </article>
 

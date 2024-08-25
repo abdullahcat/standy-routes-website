@@ -10,23 +10,23 @@ import "@/app/globals.css"
 
 const cards = [
     {
-        title: "QR'ı Okut",
-        description: "Kullanıcı size ulaştırdığımız kasadaki standy qr kodunu Standy uygulamasından okutur.",
+        title: "QR kodu okut",
+        description: "Kasadaki QR kodu standy uygulamasından okut.",
         image: "qr_illustation_1.png"
     },
     {
-        title: "Kampanya Seç",
-        description: "Uygulama üzerinden indirimini seçer ve oluşturduğu kodu kasaya gösterir",
+        title: "Kampanyayı Seç",
+        description: "Kullanmak istediğin kampanyanı seç.",
         image: "cashier_illustation_2.png"
     },
     {
-        title: "Onayla",
-        description: "Kasada size verdiğimiz konsol üzerinden kodu okutarak indirimi onaylanır.",
+        title: "Onay ekranını göster",
+        description: "Ekranında çıkan onay kodunu kasaya göster",
         image: "discount_illustation_3.png"
     }
     , {
         title: "Tadını Çıkar",
-        description: "İndirim uygulanan tutar ekranda gösterilir.",
+        description: "İndiriminin tadını çıkar.",
         image: "pay_illustation_4.png"
     }
 
@@ -36,7 +36,7 @@ type PropType = {
     options?: EmblaOptionsType
 }
 
-const BusinessCarousel: React.FC<PropType> = ({ options }) => {
+const HowToCarousel: React.FC<PropType> = ({ options }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
     useEffect(() => {
@@ -54,7 +54,7 @@ const BusinessCarousel: React.FC<PropType> = ({ options }) => {
                             <div className="items-centerjustify-center">
                                 <div className="text-standy-black  ">
                                     <div className=" m-auto   flex ">
-                                        <div className="relative w-[20rem] h-[16rem] bg-white border-2 border-black p-4 rounded-lg shadow-md flex flex-col items-center">
+                                        <div className="relative w-[20rem] h-[14rem] bg-white border   p-4 rounded-2xl shadow-md flex flex-col items-center">
                                             <div
                                                 style={{ backgroundImage: `url(${card.image})` }}
                                                 className="absolute bg-cover bg-center bg-no-repeat top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-44 h-44"
@@ -74,4 +74,4 @@ const BusinessCarousel: React.FC<PropType> = ({ options }) => {
     );
 }
 
-export default BusinessCarousel;
+export default HowToCarousel;

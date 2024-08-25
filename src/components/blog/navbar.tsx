@@ -5,10 +5,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Article, Close, School, Storefront, Verified } from '@mui/icons-material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-function Navbar() {
+function BlogNavbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const handleScroll = () => {
         const offset = window.scrollY;
         if (offset > 0) {
@@ -16,18 +17,27 @@ function Navbar() {
         } else {
             setIsScrolled(false);
         }
-    };
+    }
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll)
         return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen); // Toggle the state of the menu
     };
+
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
 
     return (
         <header className={`fixed text-black bg-white py-2 w-full lg:border-none border-b z-50 transition-all ease-in-out duration-200 ${isScrolled ? "" : ""}`}>
@@ -35,7 +45,7 @@ function Navbar() {
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
                         <Link href={'/'}>
-                            <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
+                            <img src="/standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
                         </Link>
                         <Link href={'/'} className="font-condensed uppercase mb-1  font-semibold text-standy-pink text-4xl">
                             Standy
@@ -144,7 +154,8 @@ function Navbar() {
                 )}
             </div>
         </header>
+
     );
 }
 
-export default Navbar;
+export default BlogNavbar;
