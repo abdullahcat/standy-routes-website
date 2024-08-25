@@ -63,7 +63,7 @@ function BusinessNavbar() {
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
 
-                    <Link rel="noopener noreferrer" href="https://support.standyroutes.com/"
+                    <Link rel="noopener noreferrer" href="mailto:baha@standyroutes.com"
                         target='_blank'
                         className="transition duration-200 ease-in-out hover:bg-mimi-pink  hover:text-standy-black rounded-full px-3 py-1 ">
                         Destek
@@ -119,7 +119,7 @@ function BusinessNavbar() {
                             </Link>
 
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="https://support.standyroutes.com/"
+                            <Link onClick={() => setIsMenuOpen(false)} href="mailto:baha@standyroutes.com"
                                 target='_blank'>
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
 

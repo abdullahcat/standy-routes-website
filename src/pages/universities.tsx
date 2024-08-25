@@ -41,11 +41,11 @@ function Universities() {
 
                             <Link
                                 className=" px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
-                                href="https://applyuniversity.standyroutes.com"
+                                href="https://applyambassador.standyroutes.com"
                                 target="_blank"
 
                             >
-                                Başvur
+                                Şimdir Başvur
                             </Link>
 
 
@@ -72,7 +72,7 @@ function Universities() {
 
                                             <CardGiftcard></CardGiftcard>
                                         </div>
-                                        <h6 className="mb-2  leading-5">
+                                        <h6 className="mb-2 text-xl leading-5">
                                             Temsilci İndirimi
                                         </h6>
                                         <p className="text-sm  ">
@@ -83,7 +83,7 @@ function Universities() {
                                     <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
                                         <ShowChart></ShowChart>
                                     </div>
-                                    <h6 className="mb-2  leading-5">
+                                    <h6 className="mb-2 text-xl leading-5">
                                         Para Kazan
                                     </h6>
                                     <p className="text-sm  ">
@@ -94,7 +94,7 @@ function Universities() {
                                     <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
                                         <Discount></Discount>
                                     </div>
-                                    <h6 className="mb-2  leading-5">
+                                    <h6 className="mb-2 text-xl leading-5">
                                         Yeni Mekanlar
                                     </h6>
                                     <p className="text-sm  ">
@@ -104,7 +104,7 @@ function Universities() {
                                     <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
                                         <People> </People>
                                     </div>
-                                    <h6 className="mb-2  leading-5">
+                                    <h6 className="mb-2 text-xl leading-5">
                                         Daha Fazlası
                                     </h6>
                                     <p className="text-sm  ">
@@ -247,7 +247,7 @@ function Universities() {
                             className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
                             href="/faq"
                         >
-                            Daha fazla
+                            Daha Fazla
                         </Link>
                     </div>
                 </div>

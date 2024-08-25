@@ -1,7 +1,7 @@
 // faqData.js
 export const faqData = [
     {
-        category: "Standy Routes",
+        category: "Standy",
         questions: [
             {
                 question: "Standy nedir?",
@@ -91,7 +91,7 @@ export const faqData = [
         ]
     },
     {
-        category: "Universities",
+        category: "Üniversiteler",
         questions: [
             {
                 question: "Üniversite Temsilcisi Olmak İçin Hangi Şartlar Aranıyor?",
@@ -132,7 +132,7 @@ export const faqData = [
         ]
     },
     {
-        category: "Business",
+        category: "İşletmeler",
         questions: [
             {
                 question: "Standy ile ortaklık kurmak için işletmemin hangi şartları sağlaması gerekiyor?",

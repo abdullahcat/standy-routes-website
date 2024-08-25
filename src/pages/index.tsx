@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { Celebration, DiscountOutlined, ExploreOutlined, Light, MyLocation, PartyMode, RouteOutlined, Storefront } from '@mui/icons-material';
 import HowToCarousel from '@/components/main/HowToCarousel';
 import BlogCarousel from '@/components/main/BlogCarousel';
+import MainCTA from '@/components/main/cta';
 
 export default function Home() {
 
@@ -63,10 +64,10 @@ export default function Home() {
                             </Link>
                         </div>
                         <div className="lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
-                            <div className="w-5/12">
+                            <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">
                                 <img className="object-cover" src="standy-routes-in-iphone-2.png" alt="" />
                             </div>
-                            <div className="w-6/12 -ml-16 lg:-ml-32">
+                            <div className="w-8/12  md:w-6/12 xl:w-6/12 lg:w-6/12  -ml-16 lg:-ml-32">
                                 <img className="object-cover" src="standy-routes-in-iphone.png" alt="" />
                             </div>
                         </div>
@@ -173,7 +174,7 @@ export default function Home() {
                                 </div>
                                 <h6 className="mb-2  leading-5">İndirimler</h6>
                                 <p className="mb-3 text-sm text-gray-900">
-                                    Standy+ ile anlaşmalı 300’ten fazla mekanda geçerli yüzlerce indirimden istediğiniz zaman, istediğiniz kadar yararlanın.
+                                    Standy+ ile anlaşmalı 200'den fazla mekanda geçerli yüzlerce indirimden istediğiniz zaman, istediğiniz kadar yararlanın.
                                 </p>
                             </div>
 
@@ -222,9 +223,18 @@ export default function Home() {
                         </span>
                         </p>
                     </div>
+                    <div className='justify-center flex p-4 '>
+                        <Link
+                            className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                            href="/standy-plus"
+
+                        >
+                            Daha fazla
+                        </Link>
+                    </div>
                 </div>
 
-
+                <MainCTA></MainCTA>
 
 
 

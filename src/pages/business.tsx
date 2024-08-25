@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import Link from "next/link";
 import BusinessNavbar from "@/components/business/navbar";
 import BusinessTestimonials from "@/components/business/testimonials";
+import BusinessCTA from "@/components/business/cta";
 function Business() {
 
     return (
@@ -32,14 +33,17 @@ function Business() {
                 <div className='flex items-center justify-center space-x-2'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out border-cherry-blossom-pink border hover:border-mimi-pink bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                        href=""
+                        href="https://business.standyroutes.com"
+                        target="_blank"
 
                     >
                         Başlayalım
                     </Link>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out border-standy-white border hover:border-mimi-pink    text-standy-white hover:text-standy-black hover:bg-mimi-pink"
-                        href=""
+                        href="mailto:baha@standyroutes.com"
+                        target="_blank"
+
                     >
                         Destek
                     </Link>
@@ -47,9 +51,9 @@ function Business() {
 
                 <div className="  max-w-md pt-5  items-center justify-center flex h-11/12  overflow-hidden    ">
                     <img
-                        alt="standybusinessiphone"
+                        alt="standy_business_iphone"
                         src="standybusinessiphone.png"
-                        className="    inset-0 h-full w-full object-contain"
+                        className="inset-0 h-full w-full object-contain"
                     />
                 </div>
             </section>
@@ -269,12 +273,12 @@ function Business() {
                             className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
                             href="/faq"
                         >
-                            Daha fazla
+                            Daha Fazla
                         </Link>
                     </div>
                 </div>
             </section>
-
+            <BusinessCTA></BusinessCTA>
         </div>
     )
 }

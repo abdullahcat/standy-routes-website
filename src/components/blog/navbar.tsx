@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Article, Close, School, Storefront, Verified } from '@mui/icons-material';
+import { Article, Close, MonetizationOnOutlined, School, Storefront, Verified } from '@mui/icons-material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function BlogNavbar() {
@@ -54,7 +54,7 @@ function BlogNavbar() {
 
                     <div className='space-x-1 items-center  flex-shrink-0 hidden lg:flex'>
                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                            Kullancı
+                            Kullanıcı
                         </Link>
                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
                             İşletme
@@ -66,6 +66,9 @@ function BlogNavbar() {
                     <Link rel="noopener noreferrer" href="/standy-plus" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
                         Standy+
                     </Link>
+                    <Link rel="noopener noreferrer" href="/pricing" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
+                        Fiyatlandırma
+                    </Link>
                     <Link rel="noopener noreferrer" href="/universities" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
                         Üniversiteler
                     </Link>
@@ -74,7 +77,7 @@ function BlogNavbar() {
                     </Link>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/standy-routes-waitlist"
+                        href="/waitlist"
                     >
                         Ön Kayıt
                     </Link>
@@ -84,7 +87,7 @@ function BlogNavbar() {
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/standy-routes-waitlist"
+                        href="/waitlist"
                     >
                         Ön Kayıt
                     </Link>
@@ -106,7 +109,7 @@ function BlogNavbar() {
                                 <li className="  bg-white  border-t flex flex-row items-center justify-between px-4 py-5  ">
                                     <div className='space-x-1 items-center  flex-shrink-0 lg:flex'>
                                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                                            Kullancı
+                                            Kullanıcı
                                         </Link>
                                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
                                             İşletme
@@ -130,6 +133,19 @@ function BlogNavbar() {
 
                             </Link>
 
+                            <Link onClick={() => setIsMenuOpen(false)} href="/pricing">
+                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
+
+                                    <div className='space-x-2 flex flex-row'>
+
+                                        <MonetizationOnOutlined></MonetizationOnOutlined>
+                                        <p >Fiyatlandırma</p>
+
+                                    </div>
+                                    <ArrowForwardIcon></ArrowForwardIcon>
+                                </li>
+
+                            </Link>
                             <Link onClick={() => setIsMenuOpen(false)} href="/universities">
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
                                     <div className='space-x-2 flex flex-row'>
