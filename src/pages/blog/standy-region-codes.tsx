@@ -1,4 +1,4 @@
-import BlogNavbar from "@/components/creator/blogNavbar";
+import BlogNavbar from "@/components/blog/navbar";
 import { EnergySavingsLeaf, Money, School } from "@mui/icons-material";
 import Head from "next/head";
 

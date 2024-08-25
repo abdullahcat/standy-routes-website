@@ -1,4 +1,4 @@
-import BlogNavbar from "@/components/creator/blogNavbar";
+import BlogNavbar from "@/components/blog/navbar";
 import Head from "next/head";
 
 function Blog() {

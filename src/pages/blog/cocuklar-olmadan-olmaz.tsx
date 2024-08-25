@@ -1,4 +1,4 @@
-import BlogNavbar from "@/components/creator/blogNavbar";
+import BlogNavbar from "@/components/blog/navbar";
 import { Bedtime, Bolt, Hiking, LunchDining } from "@mui/icons-material";
 import Head from "next/head";
 

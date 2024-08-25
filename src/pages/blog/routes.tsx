@@ -1,4 +1,4 @@
-import BlogNavbar from "@/components/creator/blogNavbar";
+import BlogNavbar from "@/components/blog/navbar";
 import { Accessibility, AccessibilityNew, Discount, DiscountOutlined, Explore, ExploreOffOutlined, ExploreOutlined, LocationCity, LocationOn, MobileFriendly, Phone, QuestionAnswer, QuestionMark, TimeToLeave, Timer, TimerOutlined } from "@mui/icons-material";
 import Head from "next/head";
 
