@@ -44,10 +44,6 @@ function StandyPlusNavbar() {
             <div className="container mx-auto w-full max-w-screen-xl xl:px-0 px-4 flex justify-between">
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
-                        <Link href={'/'} className='text-standy-pink' >
-                            <Verified ></Verified>
-
-                        </Link>
                         <Link href={'/'} className=" mb-1 font-condensed uppercase font-semibold text-standy-pink text-4xl">
                             Standy+
                         </Link>
@@ -55,10 +51,10 @@ function StandyPlusNavbar() {
 
                     <div className='space-x-1 items-center  flex-shrink-0 hidden lg:flex'>
                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                            Personal
+                            Kullanıcı
                         </Link>
                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
-                            Business
+                            İşletme
                         </Link>
                     </div>
                 </div>
@@ -74,20 +70,20 @@ function StandyPlusNavbar() {
                         Blog
                     </Link>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                         href="/standy-routes-waitlist"
                     >
-                        Waitlist
+                        Ön Kayıt
                     </Link>
                 </div>
 
                 {/* Mobile Menu */}
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                         href="/standy-routes-waitlist"
                     >
-                        Waitlist
+                        Ön Kayıt
                     </Link>
 
                     {isMenuOpen ? (
@@ -107,10 +103,10 @@ function StandyPlusNavbar() {
                                 <li className="  bg-white  border-t flex flex-row items-center justify-between px-4 py-5  ">
                                     <div className='space-x-1 items-center  flex-shrink-0 lg:flex'>
                                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                                            Personal
+                                            Kullanıcı
                                         </Link>
                                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
-                                            Business
+                                            İşletme
                                         </Link>
                                     </div>
                                 </li>

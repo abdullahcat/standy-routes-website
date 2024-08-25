@@ -84,10 +84,11 @@ function Universities() {
                                         <ShowChart></ShowChart>
                                     </div>
                                     <h6 className="mb-2  leading-5">
-                                        Arkadaşlarına İndirim
+                                        Para Kazan
                                     </h6>
                                     <p className="text-sm  ">
-                                        Sana özel oluşturulan kodu arkadaşlarınla paylaşarak onlara da indirimler kazandırabilirsin.                                    </p>
+                                        Üniversiteni Standy+ üyeliğine teşvik et, üyelik alan her insan başına para kazan!
+                                    </p>
                                 </div>
                                 <div>
                                     <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">

@@ -62,7 +62,7 @@ function Business() {
                         <span className="underline text-rose-red">$4.8m</span> Market Hacmi
                     </div>
                     <div className="bg-mimi-pink text-standy-black inline-block px-8 py-4 rounded-full text-lg md:text-xl lg:text-2xl">
-                        <span className="underline text-rose-red">500+</span> Anlaşmalı İşletme
+                        <span className="underline text-rose-red">200+</span> Anlaşmalı İşletme
                     </div>
                     <div className="bg-mimi-pink text-standy-black inline-block px-8 py-4 rounded-full text-lg md:text-xl lg:text-2xl">
                         <span className="underline text-rose-red">5000+</span> Hazır Kullanıcı
@@ -99,7 +99,7 @@ function Business() {
 
                         <h3 className="my-3 text-3xl text-standy-pink ">Güncel İstatistik</h3>
                         <div className="space-y-1 leading-tight">
-                            <p>Sizlere sağladığımız “Standy Konsol” ile istediğiniz her an işletmeniz hakkında sayısal verilere ulaşabilirsiniz. </p>
+                            <p>Hangi kampanyanın işletmeye daha çok kâr getirdiğini, Standy’nin işletmenin satışlarına olan etkisini barındıran veriler sunar.</p>
 
                         </div>
                     </div>
@@ -204,7 +204,7 @@ function Business() {
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white p-4  "
                         >
-                            <h2 className=" ">Standy Creator Olarak Ne Tür İçerikler Hazırlamam Beklenir?</h2>
+                            <h2 className=" ">Standy ile ortaklık kurmak için işletmemin hangi şartları sağlaması gerekiyor?</h2>
 
                             <svg
                                 className=" h-5 size-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -218,8 +218,7 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Standy için şehir keşifleri, özel rota önerileri, yerel mekan incelemeleri ve kullanıcıların ilgisini çekecek etkinliklerle ilgili içerikler hazırlamanız beklenir.
-
+                            Standy ile ortaklık kurabilmek için, işletmenizin bağımsız bir kafe veya restoran olması gerekmektedir. Zincir restoranlar veya ulusal markalar kabul edilmemektedir. Ayrıca, işletmenizin yerel halk ve turistlere açık olması ve belirli bir kalite standardını koruyor olması önemlidir.
                         </p>
                     </details>
 
@@ -227,7 +226,7 @@ function Business() {
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
-                            <h2 className=" ">Standy Creator Olarak Hangi Avantajlardan Yararlanabilirim?</h2>
+                            <h2 className=" ">Standy kullanıcılarına sunduğumuz indirim oranını kendimiz belirleyebilir miyiz?</h2>
 
                             <svg
                                 className="size-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -241,15 +240,14 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Creatorlarımıza özel etkinliklere davetler, Standy platformunda öne çıkma fırsatı, ve çeşitli indirimler sunuyoruz.
-
+                            Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak, kullanıcıların ilgisini çekmek ve rekabet avantajı sağlayabilmek için önerdiğimiz belli oranlar var. Genellikle, iş ortaklarımız %10 ila %20 arasında indirim sunarlar.
                         </p>
                     </details>
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
-                            <h2 className=" ">Standy'de Nasıl Yayınlanır?</h2>
+                            <h2 className=" ">Standy'deki ortaklık anlaşması süresi ne kadar?</h2>
 
                             <svg
                                 className="size-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -263,10 +261,7 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Gönderdiğiniz içerikler, Standy editör ekibi tarafından incelendikten sonra uygulamamızda ve web sitemizde yayınlanır.
-
-
-                        </p>
+                            Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez.                        </p>
                     </details>
                     <div className="xl:text-center">
 

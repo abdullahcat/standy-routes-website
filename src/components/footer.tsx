@@ -10,7 +10,7 @@ function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 xl:px-0  lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="    mb-6 md:mb-0">
-                        <div className="flex items-center justify-center flex-row space-x-1">
+                        <div className="flex items-center  flex-row space-x-1">
                             <Link href={'/'}>
                                 <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
                             </Link>

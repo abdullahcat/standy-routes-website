@@ -44,10 +44,10 @@ function Navbar() {
 
                     <div className='space-x-1 items-center  flex-shrink-0 hidden lg:flex'>
                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                            Personal
+                            Kullanıcı
                         </Link>
                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
-                            Business
+                            İşletme
                         </Link>
                     </div>
                 </div>
@@ -63,20 +63,20 @@ function Navbar() {
                         Blog
                     </Link>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                         href="/standy-routes-waitlist"
                     >
-                        Waitlist
+                        Ön Kayıt
                     </Link>
                 </div>
 
                 {/* Mobile Menu */}
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
-                        className="mx-2 inline-flex px-5 py-2 rounded-lg transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                        className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                         href="/standy-routes-waitlist"
                     >
-                        Waitlist
+                        Ön Kayıt
                     </Link>
 
                     {isMenuOpen ? (
@@ -96,10 +96,10 @@ function Navbar() {
                                 <li className="  bg-white  border-t flex flex-row items-center justify-between px-4 py-5  ">
                                     <div className='space-x-1 items-center  flex-shrink-0 lg:flex'>
                                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink rounded-full px-3 py-2">
-                                            Personal
+                                            Kullanıcı
                                         </Link>
                                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-gray-100   rounded-full px-3 py-2">
-                                            Business
+                                            İşletme
                                         </Link>
                                     </div>
                                 </li>

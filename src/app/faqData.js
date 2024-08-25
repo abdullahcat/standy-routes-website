@@ -148,7 +148,7 @@ export const faqData = [
             },
             {
                 question: "Standy'deki ortaklık anlaşması süresi ne kadar?",
-                answer: "Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez. "
+                answer: "Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez."
             },
             {
                 question: "Standy aboneliğimi istediğim zaman iptal edebilir miyim?",

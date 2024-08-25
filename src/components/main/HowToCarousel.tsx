@@ -59,7 +59,7 @@ const HowToCarousel: React.FC<PropType> = ({ options }) => {
                                                 style={{ backgroundImage: `url(${card.image})` }}
                                                 className="absolute bg-cover bg-center bg-no-repeat top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-44 h-44"
                                             ></div>
-                                            <h1 className='mt-16    text-xl text-standy-pink'>{card.title}</h1>
+                                            <h1 className='mt-16  font-bold  text-xl text-standy-pink'>{card.title}</h1>
                                             <div className=" mt-2 text-lg px-4 text-center">{card.description}</div>
                                         </div>
                                     </div>

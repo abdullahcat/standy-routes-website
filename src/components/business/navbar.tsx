@@ -53,10 +53,10 @@ function BusinessNavbar() {
 
                     <div className='space-x-1 items-center  flex-shrink-0 hidden lg:flex'>
                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out   hover:bg-mimi-pink hover:text-standy-black rounded-full px-3 py-2">
-                            Personal
+                            Kullanıcı
                         </Link>
                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out   hover:bg-mimi-pink text-standy-black bg-cherry-blossom-pink rounded-full px-3 py-2">
-                            Business
+                            İşletme
                         </Link>
                     </div>
                 </div>
@@ -109,10 +109,10 @@ function BusinessNavbar() {
                                 <li className="  bg-white  border-t flex flex-row items-center justify-between px-4 py-5  ">
                                     <div className='space-x-1 items-center  flex-shrink-0 lg:flex'>
                                         <Link rel="noopener noreferrer" href="/" className="transition duration-200 ease-in-out text-standy-black hover:bg-gray-100 rounded-full px-3 py-2">
-                                            Personal
+                                            Kullanıcı
                                         </Link>
                                         <Link rel="noopener noreferrer" href="/business" className="transition duration-200 ease-in-out hover:bg-standy-dark-pink text-white bg-standy-pink  rounded-full px-3 py-2">
-                                            Business
+                                            İşletme
                                         </Link>
                                     </div>
                                 </li>
