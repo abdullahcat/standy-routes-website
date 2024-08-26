@@ -18,9 +18,9 @@ function StandyPlusCTA() {
 
                             <Link
                                 className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out border-rose-red border hover:border-standy-black bg-rose-red text-standy-white hover:bg-standy-black    "
-                                href="/pricing"
+                                href="/universities"
                             >
-                                Abone Ol
+                                Keşfet
 
                             </Link>
 

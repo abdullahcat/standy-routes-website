@@ -148,9 +148,9 @@ export default function Home() {
                             Standy+ aboneliği ile benzersiz indirimlerden yararlanın, özel rotaları keşfedin ve şehir maceralarınızı bir üst seviyeye taşıyın!                        </p>
                         <Link
                             className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                            href="/waitlist"
+                            href="/standy-plus"
                         >
-                            Şimdi Sıraya Gir
+                            Keşfet
                         </Link>
                     </div>
                 </section>
@@ -228,8 +228,7 @@ export default function Home() {
                             className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                             href="/standy-plus"
 
-                        >
-                            Daha fazla
+                        >Keşfet
                         </Link>
                     </div>
                 </div>

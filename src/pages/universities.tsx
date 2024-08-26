@@ -212,7 +212,7 @@ function Universities() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Temsilci olarak, özel indirimler, arkadaşlarınıza sağlayacağınız indirim kodları ve sevdiğiniz mekanlarda ekstra fırsatlar gibi birçok avantajdan faydalanabilirsiniz.
+                            Temsilci olarak; özel indirimler, para kazanma ve sevdiğiniz mekanlarda ekstra fırsatlar gibi birçok avantajdan faydalanabilirsiniz.
 
 
                         </p>

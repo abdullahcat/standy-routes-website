@@ -42,6 +42,8 @@ export default function Pricing() {
                                         <p className="text-sm font-bold tracking-wider uppercase">
                                             Aylık
                                         </p>
+                                        <div className="bg-cherry-blossom-pink inline-block px-2 py-1 my-2 rounded-full">7 gün ücretsiz</div>
+
                                         <p className="text-5xl font-extrabold">89.99 TRY</p>
                                         <p className="text-md  ">/Aylık</p>
 

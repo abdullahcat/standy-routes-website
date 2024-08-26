@@ -99,7 +99,7 @@ export const faqData = [
             },
             {
                 question: "Standy Üniversite Temsilcisi Olarak Hangi Avantajları Elde Ederim?",
-                answer: "Temsilci olarak, özel indirimler, arkadaşlarınıza sağlayacağınız indirim kodları ve sevdiğiniz mekanlarda ekstra fırsatlar gibi birçok avantajdan faydalanabilirsiniz."
+                answer: "Temsilci olarak; özel indirimler, para kazanma ve sevdiğiniz mekanlarda ekstra fırsatlar gibi birçok avantajdan faydalanabilirsiniz."
             },
             {
                 question: "Temsilci Olarak Ne Tür Ödüller Kazanabilirim?",

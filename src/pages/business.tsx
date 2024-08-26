@@ -179,7 +179,7 @@ function Business() {
                                 </p>
                             </div>
                             <p className="text-sm ">
-                                Standy konsolu üzerinden QR kodunu okutarak indirimleri uygulayın.
+                                Standy paneli üzerinden QR kodunu okutarak indirimleri uygulayın.
                             </p>
                         </div>
                         <div className="p-5 duration-300 transform bg-white rounded-2xl shadow-sm hover:-translate-y-2">
@@ -190,7 +190,7 @@ function Business() {
                                 </p>
                             </div>
                             <p className="text-sm ">
-                                Tıklanma, reklam, indirim ve kazanç gibi tüm istatistiklerinizi Standy konsolundan takip edin.                        </p>
+                                Tıklanma, reklam, indirim ve kazanç gibi tüm istatistiklerinizi Standy panelinden takip edin.                        </p>
                         </div>
                     </div>
 

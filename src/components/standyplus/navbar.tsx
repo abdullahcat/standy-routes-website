@@ -40,7 +40,7 @@ function StandyPlusNavbar() {
 
 
     return (
-        <header className={`fixed text-standy-black bg-standy-white py-2 w-full lg:border-none border-b z-50 transition-all ease-in-out duration-200 ${isScrolled ? "" : ""}`}>
+        <header className={`fixed text-standy-black bg-standy-white py-2 w-full lg:border-none   z-50 transition-all ease-in-out duration-200 ${isScrolled ? "" : ""}`}>
             <div className="container mx-auto w-full max-w-screen-xl xl:px-0 px-4 flex justify-between">
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
