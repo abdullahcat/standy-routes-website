@@ -45,7 +45,7 @@ function Universities() {
                                 target="_blank"
 
                             >
-                                Şimdir Başvur
+                                Şimdi Başvur
                             </Link>
 
 

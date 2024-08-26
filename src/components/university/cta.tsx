@@ -23,7 +23,7 @@ function UniCTA() {
                                 target="_blank"
 
                             >
-                                Şimdir Başvur
+                                Şimdi Başvur
                             </Link>
                         </div>
                     </div>
