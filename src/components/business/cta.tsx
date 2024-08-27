@@ -18,7 +18,7 @@ function BusinessCTA() {
 
                             <Link
                                 className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out hover:bg-standy-pink  text-standy-black hover:text-standy-white  bg-standy-white       "
-                                href="https://business.standyroutes.com"
+                                href="https://apply.business.standyroutes.com"
 
                             >
                                 Başlayalım

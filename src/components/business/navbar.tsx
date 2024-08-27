@@ -74,7 +74,7 @@ function BusinessNavbar() {
                         Giriş Yap
                     </Link>
                     <Link
-                        href="https://business.standyroutes.com/"
+                        href="https://apply.business.standyroutes.com"
                         target='_blank'
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
                     >

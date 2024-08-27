@@ -33,7 +33,7 @@ function Business() {
                 <div className='flex items-center justify-center space-x-2'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out border-cherry-blossom-pink border hover:border-mimi-pink bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                        href="https://business.standyroutes.com"
+                        href="https://apply.business.standyroutes.com"
                         target="_blank"
 
                     >
