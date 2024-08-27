@@ -31,7 +31,7 @@ export default function Pricing() {
                             Buna fazlasıyla değer
                         </h2>
                         <p className="text-base text-gray-700 md:text-lg">
-                            Yeni deneyimlere açık mısınız? Standy+ üyesi olun ve İstanbul’un en popüler mekanlarını size özel sınırsız indirimlerle keşfedin!
+                            Yeni deneyimlere açık mısınız? Standy+ üyesi olun ve şehrinizdeki en popüler mekanlarını size özel sınırsız indirimlerle keşfedin!
                         </p>
                     </div>
                     <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-xl lg:grid-cols-3 mx-auto">

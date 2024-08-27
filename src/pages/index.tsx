@@ -55,7 +55,7 @@ export default function Home() {
                         <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
                             <h1 className="text-4xl lg:text-5xl text-black">Uygulamayı Keşfet</h1>
                             <p className="text-lg lg:text-xl  text-gray-700">
-                                Standy ile İstanbul’un en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
+                                Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
                             <Link
                                 className=" inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
                                 href="/waitlist"
