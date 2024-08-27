@@ -41,7 +41,7 @@ function Universities() {
 
                             <Link
                                 className=" px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out bg-standy-pink  text-white hover:bg-standy-dark-pink       "
-                                href="https://applyambassador.standyroutes.com"
+                                href="https://ambassador.standyroutes.com"
                                 target="_blank"
 
                             >

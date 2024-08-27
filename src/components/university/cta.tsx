@@ -19,7 +19,7 @@ function UniCTA() {
 
                             <Link
                                 className="  inline-flex px-5 py-2 rounded-full flex flex-row transition duration-300 ease-in-out hover:bg-standy-pink  text-standy-black hover:text-standy-white  bg-standy-white       "
-                                href="https://applyambassador.standyroutes.com"
+                                href="https://ambassador.standyroutes.com"
                                 target="_blank"
 
                             >
