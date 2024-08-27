@@ -42,7 +42,7 @@ export default function Home() {
                     <div className='flex items-center justify-center space-x-2'>
                         <Link
                             className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                            href="/waitlist"
+                            href="https://waitlist.standyroutes.com"
 
                         >
                             Şimdi Sıraya Gir
@@ -58,7 +58,7 @@ export default function Home() {
                                 Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
                             <Link
                                 className=" inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                                href="/waitlist"
+                                href="https://waitlist.standyroutes.com"
                             >
                                 Şimdi Sıraya Gir
                             </Link>

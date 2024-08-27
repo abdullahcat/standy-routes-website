@@ -66,7 +66,7 @@ function Navbar() {
                     </Link>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/waitlist"
+                        href="https://waitlist.standyroutes.com"
                     >
                         Ön Kayıt
                     </Link>
@@ -76,7 +76,7 @@ function Navbar() {
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="/waitlist"
+                        href="https://waitlist.standyroutes.com"
                     >
                         Ön Kayıt
                     </Link>

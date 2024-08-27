@@ -214,7 +214,7 @@ export default function Pricing() {
                             Standy+ aboneliği ile benzersiz indirimlerden yararlanın, özel rotaları keşfedin ve şehir maceralarınızı bir üst seviyeye taşıyın!                        </p>
                         <Link
                             className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                            href="/waitlist"
+                            href="https://waitlist.standyroutes.com"
                         >
                             Şimdi Sıraya Gir
                         </Link>

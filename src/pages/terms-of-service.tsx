@@ -10,7 +10,7 @@ function Terms() {
             <header >
                 <Navbar />
             </header>
-            <section className="text-standy-black mx-auto w-full max-w-screen-xl p-4   py-20 xl:px-0  min-h-screen">
+            <section className="text-standy-black mx-auto w-full max-w-screen-xl p-4  q py-20 xl:px-0  min-h-screen">
 
 
                 <h1 className='text-3xl text-start py-5'>Şartlar ve Koşullar</h1>
