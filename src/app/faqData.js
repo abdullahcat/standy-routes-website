@@ -133,51 +133,46 @@ export const faqData = [
     },
     {
         category: "İşletmeler",
-        questions: [
+
+        "questions": [
             {
-                question: "Standy ile ortaklık kurmak için işletmemin hangi şartları sağlaması gerekiyor?",
-                answer: "Standy ile ortaklık kurabilmek için, işletmenizin bağımsız bir kafe veya restoran olması gerekmektedir. Zincir restoranlar veya ulusal markalar kabul edilmemektedir. Ayrıca, işletmenizin yerel halk ve turistlere açık olması ve belirli bir kalite standardını koruyor olması önemlidir."
+                "question": "Standy ile ortaklık kurmak için işletmemin hangi şartları sağlaması gerekiyor?",
+                "answer": "Standy ile ortaklık kurmak için, kasanızda QR kod okuyabilecek bir teknolojinin bulunması yeterli. Bunlar herhangi bir akıllı telefon veya QR kod okuyucu eklentiler olabilir."
             },
             {
-                question: "Standy kullanıcılarına sunduğumuz indirim oranını kendimiz belirleyebilir miyiz?",
-                answer: "Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak, kullanıcıların ilgisini çekmek ve rekabet avantajı sağlayabilmek için önerdiğimiz belli oranlar var. Genellikle, iş ortaklarımız %10 ila %20 arasında indirim sunarlar."
+                "question": "Standy kullanıcılarına sunduğumuz indirimlerin oranını kendimiz belirleyebilir miyiz?",
+                "answer": "Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak birçok araştırma ve aktif uygulamalarda yapılan istatistikler %15-20 oranında sağlanan indirimlerin maksimum sonuç verdiğini gösteriyor."
             },
             {
-                question: "Standy+ kullanıcılarına sunduğumuz indirim veya kampanyaları kendim belirleyebilir miyim?",
-                answer: "Evet, Standy ile anlaşma sırasında dilerseniz yüzdelik, dilerseniz toplam tutardan indirim, dilerseniz belli menülerde geçerli indirimler şeklinde seçebilirsiniz. Bu indirimlerin miktarlarını minimum değerlerin üstünde istediğiniz değerde belirleyebilirsiniz. Unutmayın, ne kadar indirim o kadar müşteri demek!"
+                "question": "Standy ile ortaklık süreci nasıl işler?",
+                "answer": "Standy İşletme sayfamızdan panelimize kayıt olabilirsiniz. Ardından canlı destek ekibimiz sizinle iletişime geçerek sunmak istediğiniz indirim ve kampanyaları oluşturmanızı sağlar. 1 hafta içerisinde adresinize gelecek temsilcimiz QR kodunuzu kasanıza yerleştirir, panelin kurulumunu yapar ve kullanımını gösterir. Bu andan itibaren Standy kullanıcılarına erişmeye başlayabilirsiniz."
             },
             {
-                question: "Standy'deki ortaklık anlaşması süresi ne kadar?",
-                answer: "Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez."
+                "question": "Standy+ kullanıcılarına sunabileceğim indirim çeşitleri nelerdir?",
+                "answer": "Evet, Standy ile yüzdelik indirim, toplam tutardan indirim, kampanya ile indirim ve promosyon indirimleri sunabilirsiniz. Bu indirimleri Standy+ üyelerine özel olacak şekilde istediğiniz şekilde seçebilirsiniz."
             },
             {
-                question: "Standy aboneliğimi istediğim zaman iptal edebilir miyim?",
-                answer: "Evet, Standy ile yapılan abonelikler, size maksimum esneklik sağlamak amacıyla her zaman iptal edilebilir. Aboneliğinizi iptal etmek için, business konsol üzerinden müşteri hizmetleri ekibimizle iletişime geçerek işleminizi kolayca gerçekleştirebilirsiniz."
+                "question": "Standy ile ortaklık anlaşması süresi ne kadar?",
+                "answer": "Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir hizmet bedeli veya komisyon ücreti talep etmez."
             },
             {
-                question: "Standy ortaklarına ne tür destekler sağlanıyor?",
-                answer: "Standy olarak, ortaklarımıza pazarlama materyalleri, kullanıcı veri analizleri ve promosyon desteği sağlıyoruz. Ayrıca, platformumuzda öne çıkan yer almanız için çeşitli kampanya ve etkinlikler düzenlemekteyiz."
+                "question": "Standy aboneliğimi istediğim zaman iptal edebilir miyim?",
+                "answer": "Evet, Standy ile yapılan abonelikler, size maksimum esneklik sağlamak amacıyla her zaman iptal edilebilir. Aboneliğinizi iptal etmek için, business panel üzerinden müşteri hizmetleri ekibimizle iletişime geçerek işleminizi kolayca gerçekleştirebilirsiniz."
             },
             {
-                question: "Standy ile ortaklık süreci nasıl işliyor?",
-                answer: "Standy ile ortaklık süreci, ilk olarak bizimle iletişime geçmenizle başlar. İşletmenizin detaylarını ve sunduğunuz indirimleri bize bildirdikten sonra, işletmenizi platformumuza ekleriz. Sonrasında, işletmeniz Standy kullanıcıları tarafından keşfedilmeye başlar ve promosyonlarınız aktif hale gelir."
+                "question": "Standy ortaklarına ne tür destekler sağlanıyor?",
+                "answer": "Standy olarak, ortaklarımıza pazarlama materyalleri, kullanıcı veri analizleri ve promosyon desteği sağlıyoruz. Ayrıca, platformumuzda öne çıkan yer almanız için çeşitli kampanya ve etkinlikler düzenlemekteyiz."
             },
             {
-                question: "Standy kullanıcılarına sunulan indirimler nasıl uygulanıyor?",
-                answer: "Kullanıcılar, Standy uygulaması üzerinden kasanızdaki QR kodu okuturlar. Ardından sunduğunuz indirim seçeneklerinde birisini seçer ve ekranlarında çıkan kodu kasaya gösterirler. Standy konsol üzerinden kodu okutarak indirimi uygularsınız. Toplam tutarı ekrana girerek indirimli fiyata anında ulaşabilirsiniz."
+                "question": "Standy kullanıcılarına sunulan indirimler nasıl uygulanıyor?",
+                "answer": "Kullanıcılar, Standy uygulaması üzerinden kasanızdaki QR kodu okuturlar. Ardından sunduğunuz indirim seçeneklerinden birisini seçer ve ekranlarında çıkan kodu kasaya gösterirler. İşletme paneli üzerinden kodu okutarak indirimi uygularsınız. Toplam tutarı ekrana girerek indirimli fiyata anında ulaşabilirsiniz."
             },
             {
-                question: "Standy ortaklığı için herhangi bir ücret ödemem gerekiyor mu?",
-                answer: "Standy, işletmeniz için ilk 1 ay ücretsiz hizmet sunar. Bu süreç içerisinde Standy’yi aktif kullanmayı öğrenir, istatistikleri takip edersiniz. 1 aylık süreç sonunda ise memnun kaldığınız takdirde Standy üyeliğiniz aylık abonelik fiyatı üzerinden devam eder."
-            },
-            {
-                question: "Standy'deki ortaklık anlaşması süresi ne kadar?",
-                answer: "Standy ile ortaklık anlaşmaları aylık olarak yenilenir. Ancak, işletmeler istedikleri zaman ortaklıktan çekilebilirler. Bu abonelik sürecinde herhangi bir taahhüt talep edilmez."
-            },
-            {
-                question: "Standy aboneliğimi istediğim zaman iptal edebilir miyim?",
-                answer: "Evet, Standy ile yapılan abonelikler, size maksimum esneklik sağlamak amacıyla her zaman iptal edilebilir. İşletmenizin ihtiyaçlarına veya bütçesine göre aboneliği dilediğiniz zaman sonlandırabilirsiniz. Aboneliğinizi iptal etmek için, uygulamamızdaki hesap ayarları bölümünden ya da müşteri hizmetleri ekibimizle iletişime geçerek işleminizi kolayca gerçekleştirebilirsiniz."
+                "question": "Standy+ nedir?",
+                "answer": "Standy+ bir abonelik servisidir, kullanıcılara özel sayısız indirimler, kampanyalar ve daha birçok özellik sunar."
             }
         ]
+
+
     },
 ]

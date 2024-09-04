@@ -30,14 +30,15 @@ function Footer() {
                             </ul>
                         </div>
 
+
                         <div>
                             <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Şirket</h2>
                             <ul  >
                                 <li className="mb-4">
-                                    <Link href="/faq" className="hover:underline">SSS</Link>
+                                    <a href="mailto:baha@standyroutes.com" target="_blank" className="hover:underline">Bize Ulaşın</a>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="https://www.linkedin.com/company/standy/jobs/" className="hover:underline">Kariyer</a>
+                                    <Link href="/faq" className="hover:underline">SSS</Link>
                                 </li>
                             </ul>
                         </div>
@@ -66,7 +67,7 @@ function Footer() {
 
                             <span className="sr-only">Instagram</span>
                         </a>
-                        <a href="https://x.com/standyroutes" className="  hover:text-rose-red">
+                        <a href="https://x.com/standyturkiye" className="  hover:text-rose-red">
                             <X></X>
                             <span className="sr-only">Twitter</span>
 

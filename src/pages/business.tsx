@@ -101,9 +101,9 @@ function Business() {
                     <div className="flex flex-col items-center p-4">
                         <BarChart className="bg-standy-pink text-standy-white rounded-full p-4  w-16 h-16"></BarChart>
 
-                        <h3 className="my-3 text-3xl text-standy-pink ">Güncel İstatistik</h3>
+                        <h3 className="my-3 text-3xl text-standy-pink ">İstatistik</h3>
                         <div className="space-y-1 leading-tight">
-                            <p>Hangi kampanyanın işletmeye daha çok kâr getirdiğini, Standy’nin işletmenin satışlarına olan etkisini barındıran veriler sunar.</p>
+                            <p>Hangi kampanyanın işletmeye daha çok kâr getirdiğine ve Standy’nin işletmenizin satışlarına olan etkisine dair verilere panelinizden ulaşın.</p>
 
                         </div>
                     </div>
@@ -112,7 +112,7 @@ function Business() {
 
                         <h3 className="my-3 text-3xl text-standy-pink ">Canlı Destek</h3>
                         <div className="space-y-1 leading-tight">
-                            <p>Her türlü sorunuza anında cevap verecek canlı destek hizmetinizde. Eğer bütün bu hizmetlerden memnun kalmazsanız üyelik iptali tamamen ücretsiz.</p>
+                            <p>Her türlü sorunuza anında cevap verecek canlı destek hizmetinizde. Eğer bütün bu hizmetlerden memnun kalmazsanız her zaman iptal edebilirsiniz.</p>
                         </div>
                     </div>
 
@@ -222,15 +222,16 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Standy ile ortaklık kurabilmek için, işletmenizin bağımsız bir kafe veya restoran olması gerekmektedir. Zincir restoranlar veya ulusal markalar kabul edilmemektedir. Ayrıca, işletmenizin yerel halk ve turistlere açık olması ve belirli bir kalite standardını koruyor olması önemlidir.
-                        </p>
+                            Standy ile ortaklık kurmak için, kasanızda QR kod okuyabilecek bir teknolojinin bulunması yeterli. Bunlar herhangi bir akıllı telefon veya QR kod okuyucu eklentiler olabilir.                        </p>
                     </details>
 
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
-                            <h2 className=" ">Standy kullanıcılarına sunduğumuz indirim oranını kendimiz belirleyebilir miyiz?</h2>
+                            <h2 className=" ">Standy kullanıcılarına sunduğumuz indirimlerin oranını kendimiz belirleyebilir miyiz?
+
+                            </h2>
 
                             <svg
                                 className="size-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -244,14 +245,13 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak, kullanıcıların ilgisini çekmek ve rekabet avantajı sağlayabilmek için önerdiğimiz belli oranlar var. Genellikle, iş ortaklarımız %10 ila %20 arasında indirim sunarlar.
-                        </p>
+                            Evet, işletmeler Standy kullanıcılarına sunacakları indirim oranını kendileri seçebilir. Ancak birçok araştırma ve aktif uygulamalarda yapılan istatistikler %15-20 oranında sağlanan indirimlerin maksimum sonuç verdiğini gösteriyor.                         </p>
                     </details>
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                         <summary
                             className="flex cursor-pointer items-center justify-between gap-1.5 rounded-2xl bg-standy-white  p-4  "
                         >
-                            <h2 className=" ">Standy'deki ortaklık anlaşması süresi ne kadar?</h2>
+                            <h2 className=" ">Standy ile ortaklık süreci nasıl işler?</h2>
 
                             <svg
                                 className="size-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -265,7 +265,7 @@ function Business() {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed  ">
-                            Standy ile ortaklık anlaşmaları aylık olarak yenilenir ve bu anlaşma sadece kullanıcılara sunulan indirimleri içerir, herhangi bir ücret talep etmez.                        </p>
+                            Standy İşletme sayfamızdan panelimize kayıt olabilirsiniz. Ardından canlı destek ekibimiz sizinle iletişime geçerek sunmak istediğiniz indirim ve kampanyaları oluşturmanızı sağlar. 1 hafta içerisinde adresinize gelecek temsilcimiz QR kodunuzu kasanıza yerleştirir, panelin kurulumunu yapar ve kullanımını gösterir. Bu andan itibaren Standy kullanıcılarına erişmeye başlayabilirsiniz.              </p>
                     </details>
                     <div className="xl:text-center">
 

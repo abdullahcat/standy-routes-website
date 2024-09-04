@@ -63,7 +63,7 @@ function BusinessTestimonials() {
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                            Restoranımı duyurmak adına olmadık yerlere birçok para döktüm. Standy, hem yakınımdaki müşterileri bana yönlendiriyor, hem de 1 ay ücretsiz reklamımı yapıyor.                       </p>
+                            Restoranımı duyurmak adına olmadık yerlere birçok para döktüm. Standy, hem yakınımdaki müşterileri bana yönlendiriyor.</p>
                     </blockquote>
 
 

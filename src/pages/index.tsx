@@ -53,7 +53,7 @@ export default function Home() {
                 <section className="bg-mimi-pink flex justify-center xl:p-0 p-10 items-center w-full h-full">
                     <div className="flex flex-col lg:flex-row items-center w-full max-w-screen-xl">
                         <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
-                            <h1 className="text-4xl lg:text-5xl text-black">Uygulamayı Keşfet</h1>
+                            <h1 className="text-4xl lg:text-5xl text-black">Çok Yakında</h1>
                             <p className="text-lg lg:text-xl  text-gray-700">
                                 Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
                             <Link
@@ -89,7 +89,7 @@ export default function Home() {
                                     <h6 className="leading-5">Avantajlar</h6>
                                 </div>
                                 <p className="mb-2 text-gray-900">
-                                    Standy uygulaması ile birçok anlaşmalı mekandaki qr kodu okutarak Standy indirimlerinden faydalanabilirsin.
+                                    Standy uygulaması ile birçok anlaşmalı mekandaki karekodu okutarak Standy indirimlerinden faydalanabilirsin.
                                 </p>
 
                             </div>
