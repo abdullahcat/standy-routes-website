@@ -12,7 +12,7 @@ function Footer() {
                     <div className="    mb-6 md:mb-0">
                         <div className="flex items-center  flex-row space-x-1">
                             <Link href={'/'}>
-                                <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
+                                <img src="/standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
                             </Link>
                             <Link href={'/'} className="font-condensed uppercase mb-1  font-semibold text-standy-pink text-4xl">
                                 Standy

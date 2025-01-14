@@ -50,6 +50,19 @@ function Blog() {
                     </li>
                     <li>
                         <a
+                            href="/blog/tatli-krizlerinde-ilac-niyetinde-olacak-mekan-onerileri"
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out      flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            style={{ backgroundImage: `url(https://images.pexels.com/photos/730129/pexels-photo-730129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}
+                        >
+                            <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
+                                <h3 className="  text-left  ">14 Ocak 2025 | Mutfak</h3>
+                                <h3 className="text-3xl text-left  ">Tatlı Krizlerinde İlaç Niyetinde Olacak Mekân Önerileri</h3>
+
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="/blog/routes"
                             className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/5745818/pexels-photo-5745818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}
