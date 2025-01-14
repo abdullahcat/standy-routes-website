@@ -1,5 +1,4 @@
 import BlogNavbar from "@/components/blog/navbar";
-import { Bedtime, Bolt, Hiking, LunchDining } from "@mui/icons-material";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -31,7 +30,7 @@ function Blog() {
                 <div className="my-10 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
                     <img
                         className="object-cover w-full h-[40rem] rounded-lg shadow-lg  "
-                        src="https://images.pexels.com/photos/730129/pexels-photo-730129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt=""
                     />
                 </div>
