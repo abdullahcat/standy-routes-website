@@ -65,10 +65,10 @@ export default function Home() {
                         </div>
                         <div className="lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
                             <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">
-                                <img className="object-cover" src="standy-routes-in-iphone-2.png" alt="" />
+                                <img className="object-cover" src="standy-phone-2.png" alt="" />
                             </div>
                             <div className="w-8/12  md:w-6/12 xl:w-6/12 lg:w-6/12  -ml-16 lg:-ml-32">
-                                <img className="object-cover" src="standy-routes-in-iphone.png" alt="" />
+                                <img className="object-cover" src="standy-phone-1.png" alt="" />
                             </div>
                         </div>
                     </div>

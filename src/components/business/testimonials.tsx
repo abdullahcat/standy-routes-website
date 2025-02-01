@@ -12,7 +12,7 @@ function BusinessTestimonials() {
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""
-                                src="https://images.pexels.com/photos/3351927/pexels-photo-3351927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                src="https://www.popsci.com/wp-content/uploads/2020/01/07/WMD5M52LJFBEBIHNEEABHVB6LA.jpg?quality=85"
                                 className=" w-14 h-14 rounded-full object-cover"
                             />
 
@@ -31,13 +31,13 @@ function BusinessTestimonials() {
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""
-                                src="https://images.pexels.com/photos/4253302/pexels-photo-4253302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                src="https://mycyberuniverse.com/images/articles/Milena/how-save-memoji-as-png/thumbnail.png"
                                 className="w-14 h-14 rounded-full object-cover"
                             />
 
                             <div>
 
-                                <p className="  text-lg  text-gray-900">Deniz Müjde</p>
+                                <p className="  text-lg  text-gray-900">Cansel Oğuz</p>
                                 <p className="   text-xs  text-gray-600">Kafe Sahibi</p>
 
                             </div>
@@ -50,13 +50,13 @@ function BusinessTestimonials() {
                         <div className="flex items-center gap-4">
                             <img
                                 alt=""
-                                src="https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                src="https://www.imejis.io/images/tools/memoji-builder/male.png"
                                 className="w-14 h-14 rounded-full object-cover"
                             />
 
                             <div>
 
-                                <p className="  text-lg  text-gray-900">Sabahaddin Efe Yücer</p>
+                                <p className="  text-lg  text-gray-900">Sabahattin Efe Yücer</p>
                                 <p className="   text-xs  text-gray-600">Restoran İşletmecisi</p>
 
                             </div>

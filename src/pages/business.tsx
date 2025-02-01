@@ -52,7 +52,7 @@ function Business() {
                 <div className="  max-w-md pt-5  items-center justify-center flex h-11/12  overflow-hidden    ">
                     <img
                         alt="standy_business_iphone"
-                        src="standybusinessiphone.png"
+                        src="standy-phone-business.png"
                         className="inset-0 h-full w-full object-contain"
                     />
                 </div>

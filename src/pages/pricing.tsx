@@ -44,10 +44,9 @@ export default function Pricing() {
                                         <p className="text-sm font-bold tracking-wider uppercase">
                                             Aylık
                                         </p>
-                                        <div className="bg-cherry-blossom-pink inline-block px-2 py-1 my-2 rounded-full">7 gün ücretsiz</div>
+                                        <div className="bg-cherry-blossom-pink inline-block px-2 py-1 my-2 rounded-full">İlk 24 saat ücretsiz</div>
 
-                                        <p className="text-2xl   line-through font-extrabold">100 TRY</p>
-                                        <p className="text-5xl     font-extrabold">50 TRY</p>
+                                         <p className="text-5xl     font-extrabold">99 TRY</p>
 
                                         <p className="text-md  ">/Aylık</p>
 
@@ -82,7 +81,7 @@ export default function Pricing() {
                                                     <ArrowCircleDown className="cursor-pointer" onClick={toggleExpand} />
                                                 </div>
                                                 <p className="font-medium text-gray-800 underline cursor-pointer" onClick={toggleExpand}>
-                                                    89.99 TL ile başka ne yapılabilir?
+                                                    99.99 TL ile başka ne yapılabilir?
                                                 </p>
                                             </div>
                                             {isExpanded && (
@@ -120,8 +119,7 @@ export default function Pricing() {
                                         </p>
                                         <div className="bg-cherry-blossom-pink inline-block px-2 py-1 my-2 rounded-full">%26 daha ucuz</div>
 
-                                        <p className="text-2xl   line-through font-extrabold">400 TRY</p>
-                                        <p className="text-5xl     font-extrabold">200 TRY</p>
+                                         <p className="text-5xl     font-extrabold">400 TRY</p>
 
                                         <p className="text-md  ">66.67 TRY/Aylık</p>
 
@@ -166,8 +164,7 @@ export default function Pricing() {
                                         </p>
                                         <div className="bg-cherry-blossom-pink inline-block px-2 py-1 my-2 rounded-full">%36 daha ucuz</div>
 
-                                        <p className="text-2xl   line-through font-extrabold">700 TRY</p>
-                                        <p className="text-5xl    font-extrabold">350 TRY</p>
+                                         <p className="text-5xl    font-extrabold">700 TRY</p>
                                         <p className="text-md  ">58.33 TRY/Aylık</p>
 
                                     </div>

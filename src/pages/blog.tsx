@@ -63,6 +63,20 @@ function Blog() {
                     </li>
                     <li>
                         <a
+                            href="/blog/besiktasta-bir-gun"
+                            className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
+                            style={{ backgroundImage: `url(https://images.pexels.com/photos/7562484/pexels-photo-7562484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)` }}
+                        >
+                            <div className={`absolute bg-black bg-opacity-40 inset-0 flex flex-col justify-between items-start p-4 transition-opacity duration-300  `}>
+
+                                <h3 className="  text-left  ">1 Şubat 2025 | Tarih</h3>
+                                <h3 className="text-3xl text-left  ">Beşiktaş Gezi Rehberi</h3>
+
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="/blog/routes"
                             className={`hover:scale-105 carousel-card group block overflow-hidden rounded-2xl transition-transform ease-in-out   flex flex-col h-[24rem] items-center justify-center text-center bg-cover bg-center relative `}
                             style={{ backgroundImage: `url(https://images.pexels.com/photos/5745818/pexels-photo-5745818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}

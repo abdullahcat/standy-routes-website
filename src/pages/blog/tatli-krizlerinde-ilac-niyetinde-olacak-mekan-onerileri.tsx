@@ -173,7 +173,7 @@ Ayrıntılı bilgi için <Link href="/">Standy’nin web sitesine</Link> bakabil
 <div className="max-w-screen-md mt-10  text-xl leading-loose mx-auto text-left items-center space-x-4 flex flex-row">
 <div className="h-16 w-16 rounded-full overflow-hidden">
     <img 
-        src="https://media.licdn.com/dms/image/v2/D4E03AQGzEUfRsjolpg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727760669598?e=1742428800&v=beta&t=WlGyGBdRi3KDUEAE8Wxn_fSQWYQMvmWPpOVGiKtaUFY" 
+        src="https://media.licdn.com/dms/image/v2/D4E03AQFplLGb9XrlQg/profile-displayphoto-shrink_800_800/B4EZS4SnujGYAk-/0/1738258677804?e=1743638400&v=beta&t=CBN_x0WfRJFwrOLLsA804itMdtUgqN8z42O8PnN2V08" 
         alt="Profile photo" 
         className="h-full w-full object-cover" 
     />
