@@ -87,7 +87,7 @@ function Universities() {
                                         Para Kazan
                                     </h6>
                                     <p className="text-sm  ">
-                                        Üniversiteni Standy+ üyeliğine teşvik et, üyelik alan her insan başına para kazan!
+                                        Üniversiteni Standy üyeliğine teşvik et, üyelik alan her insan başına para kazan!
                                     </p>
                                 </div>
                                 <div>

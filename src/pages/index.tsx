@@ -165,7 +165,7 @@ export default function Home() {
                                 </div>
                                 <h6 className="mb-2  leading-5">İndirimler</h6>
                                 <p className="mb-3 text-sm text-gray-900">
-                                    Standy+ ile anlaşmalı 200'den fazla mekanda geçerli yüzlerce indirimden istediğiniz zaman, istediğiniz kadar yararlanın.
+                                    Standy ile anlaşmalı 200'den fazla mekanda geçerli yüzlerce indirimden istediğiniz zaman, istediğiniz kadar yararlanın.
                                 </p>
                             </div>
 
@@ -178,7 +178,7 @@ export default function Home() {
                                 <h6 className="mb-2  leading-5">Bölge Kodları</h6>
 
                                 <p className="mb-3 text-sm text-gray-900">
-                                    Standy+ ile şehrin çeşitli bölgelerinde geçerli özel kodları kullanın ve bu bölgelerdeki ayrıcalıklı tekliflerden yararlanın.    </p>                    </div>
+                                    Standy ile şehrin çeşitli bölgelerinde geçerli özel kodları kullanın ve bu bölgelerdeki ayrıcalıklı tekliflerden yararlanın.    </p>                    </div>
 
                         </div>
                         <div className="flex flex-col justify-between p-5 border rounded-2xl shadow-sm">
