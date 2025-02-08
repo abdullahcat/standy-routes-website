@@ -45,7 +45,7 @@ function StandyPlusNavbar() {
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
                         <Link href={'/'} className=" mb-1 font-condensed uppercase font-semibold text-standy-pink text-4xl">
-                            Standy+
+                            Standy
                         </Link>
                     </div>
 
@@ -61,11 +61,9 @@ function StandyPlusNavbar() {
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
                     <Link rel="noopener noreferrer" href="/standy-plus" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Standy+
+                        Nasıl Çalışır?
                     </Link>
-                    <Link rel="noopener noreferrer" href="/pricing" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Fiyatlandırma
-                    </Link>
+                   
                     <Link rel="noopener noreferrer" href="/universities" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
                         Üniversiteler
                     </Link>
@@ -74,9 +72,10 @@ function StandyPlusNavbar() {
                     </Link>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="https://waitlist.standyroutes.com"
+                       href="https://account.standyroutes.com"
+                        target='_blank'
                     >
-                        Ön Kayıt
+                        Şimdi Başla
                     </Link>
                 </div>
 
@@ -84,9 +83,10 @@ function StandyPlusNavbar() {
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                        href="https://waitlist.standyroutes.com"
+                        href="https://account.standyroutes.com"
+                        target='_blank'
                     >
-                        Ön Kayıt
+                        Şimdi Başla
                     </Link>
 
                     {isMenuOpen ? (
@@ -122,26 +122,14 @@ function StandyPlusNavbar() {
                                     <div className='space-x-2 flex flex-row'>
 
                                         <Verified></Verified>
-                                        <p >Standy+</p>
+                                        <p >Nasıl Çalışır?</p>
 
                                     </div>
                                     <ArrowForwardIcon></ArrowForwardIcon>
                                 </li>
 
                             </Link>
-                            <Link onClick={() => setIsMenuOpen(false)} href="/pricing">
-                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
-
-                                    <div className='space-x-2 flex flex-row'>
-
-                                        <MonetizationOnOutlined></MonetizationOnOutlined>
-                                        <p >Fiyatlandırma</p>
-
-                                    </div>
-                                    <ArrowForwardIcon></ArrowForwardIcon>
-                                </li>
-
-                            </Link>
+                          
                             <Link onClick={() => setIsMenuOpen(false)} href="/universities">
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
                                     <div className='space-x-2 flex flex-row'>

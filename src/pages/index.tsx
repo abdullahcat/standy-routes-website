@@ -1,13 +1,9 @@
 import Head from 'next/head';
 import '@/app/globals.css';
 import * as React from 'react';
-import { EmblaOptionsType } from 'embla-carousel'
 import Navbar from '@/components/navbar';
-import Script from 'next/script';
 import Link from 'next/link';
-import { Celebration, DiscountOutlined, ExploreOutlined, Light, MyLocation, PartyMode, RouteOutlined, Storefront } from '@mui/icons-material';
-import HowToCarousel from '@/components/main/HowToCarousel';
-import BlogCarousel from '@/components/main/BlogCarousel';
+import { Celebration, DiscountOutlined, ExploreOutlined,  MyLocation, RouteOutlined, Storefront } from '@mui/icons-material';
 import MainCTA from '@/components/main/cta';
 
 export default function Home() {
@@ -42,10 +38,10 @@ export default function Home() {
                     <div className='flex items-center justify-center space-x-2'>
                         <Link
                             className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                            href="https://waitlist.standyroutes.com"
+                            href="https://account.standyroutes.com"
 
                         >
-                            Şimdi Sıraya Gir
+                            Şimdi Başla
                         </Link>
 
                     </div>
@@ -56,12 +52,7 @@ export default function Home() {
                             <h1 className="text-4xl lg:text-5xl text-black">Çok Yakında</h1>
                             <p className="text-lg lg:text-xl  text-gray-700">
                                 Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
-                            <Link
-                                className=" inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                                href="https://waitlist.standyroutes.com"
-                            >
-                                Şimdi Sıraya Gir
-                            </Link>
+                           
                         </div>
                         <div className="lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
                             <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">
@@ -142,10 +133,10 @@ export default function Home() {
                     <div className='flex-grow'></div> {/* This pushes the content to the bottom without extra space */}
                     <div className='flex flex-col items-center justify-center space-y-6'>
                         <h1 className='font-condensed uppercase leading-20 font-black lg:text-8xl xl:text-8xl md:text-7xl text-6xl'>
-                            STANDY+ İLE<br /> CÜZDANINI KORU
+                            STANDY İLE<br /> CÜZDANINI KORU
                         </h1>
                         <p className='text-white text-xl'>
-                            Standy+ aboneliği ile benzersiz indirimlerden yararlanın, özel rotaları keşfedin ve şehir maceralarınızı bir üst seviyeye taşıyın!                        </p>
+                            Standy ile benzersiz indirimlerden yararlanın, özel rotaları keşfedin ve şehir maceralarınızı bir üst seviyeye taşıyın!                        </p>
                         <Link
                             className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
                             href="/standy-plus"
@@ -161,7 +152,7 @@ export default function Home() {
 
                         <h2 className="max-w-lg mb-6  text-4xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                             <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
-                                <span className="relative text-white">Standy +</span>
+                                <span className="relative text-white">Standy</span>
                             </span> ile sana neler sunuyoruz?
                         </h2>
 
@@ -217,8 +208,8 @@ export default function Home() {
 
                     </div>
                     <div className="container rounded-2xl bg-standy-white    mx-auto mt-4 p-4 space-y-2  text-center">
-                        <p className="leading-snug text-standy-black text-2xl">Üstelik bütün bu avantajlar ayda sadece <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
-                            <span className="relative text-white"> 1 kahve fiyatına!
+                        <p className="leading-snug text-standy-black text-2xl">Üstelik bütün bu avantajlar tamamen <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
+                            <span className="relative text-white"> ücretsiz!
                             </span>
                         </span>
                         </p>

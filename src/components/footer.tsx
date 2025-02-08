@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Basın</h2>
+                            <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide">Basın</h2>
                             <ul  >
                                 <li className="mb-4">
                                     <a href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy%20Design%20Outlines.pdf?alt=media&token=b1e2eecc-1c0d-4794-9d52-f2bf4857935c" className="hover:underline">Basın Kiti</a>
@@ -59,7 +59,7 @@ function Footer() {
                 </div>
                 <hr className="my-6   sm:mx-auto  border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm  sm:text-center ">© 2024 <a href="https://standy.tech/" className="hover:underline">Standy Tech™</a>. Tüm Hakları Saklıdır.
+                    <span className="text-sm  sm:text-center ">© 2025 <a href="https://artedeilusion.com/" className="hover:underline">Artes de ilusion™</a>. Tüm Hakları Saklıdır.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <a href="https://www.instagram.com/standyroutes" className=" hover:text-rose-red">

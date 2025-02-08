@@ -11,14 +11,8 @@ export const faqData = [
                 question: "Standy uygulamasını nasıl indirebilirim?",
                 answer: "Standy uygulamasını, iOS ve Android cihazlar için Apple App Store veya Google Play Store üzerinden ücretsiz olarak indirebilirsiniz."
             },
-            {
-                question: "Standy kullanmak için ücret ödemem gerekiyor mu?",
-                answer: "Standy uygulamasını indirmek ve içindeki yüzlerce rota ile keşfe başlamak tamamen ücretsiz. Ancak anlaşmalı yüzlerce mekanda geçerli indirimlerden yararlanmak için Standy+ aboneliği gerektirir."
-            },
-            {
-                question: "Standy kullanmak için ücret ödemem gerekiyor mu?",
-                answer: "Standy uygulamasını indirmek, rota ve indirimleri kullanmak gibi birçok özellik tamamen ücretsizdir. Ancak, yeni geliştirilen ek özellikler ve özel içerikler premium abonelik gerektirebilir."
-            },
+            
+            
             {
                 question: "Uygulama içinde hangi tür indirimler bulabilirim?",
                 answer: "Standy, sayısız anlaşmalı mekanda yiyecek, içecek ve etkinlikler için çeşitli indirimler sunar. Bu indirimlere uygulama üzerinden erişilebilir."
@@ -57,39 +51,7 @@ export const faqData = [
             }
         ]
     },
-    {
-        category: "Standy+",
-        questions: [
-            {
-                question: "Standy+ nedir?",
-                answer: "Standy+ bir abonelik servisidir, kullanıcılara özel sayısız indirimler, kampanyalar ve daha birçok özellik sunar."
-            },
-            {
-                question: "Standy+ aboneliği nasıl satın alınır?",
-                answer: "Standy uygulaması içerisindeki “Profil” bölümünden Standy+ aboneliğinizi kolayca oluşturabilirsiniz."
-            },
-            {
-                question: "Standy+ abonelik ücreti nedir?",
-                answer: "Standy+ abonelik ücreti aylık veya yıllık olarak belirlenmiş olup, mevcut fiyatlandırma için uygulamamızı ziyaret edebilirsiniz."
-            },
-            {
-                question: "Standy+ aboneliği hangi özellikleri içerir?",
-                answer: "Abonelik, özel indirimler, öncelikli etkinlik davetleri, bölgenizdeki mekanlarda ekstra indirimler ve bize ilettiğiniz mekanlarda sizin özel indirim kazanma şansı gibi özellikleri içerir. Daha fazlası için bu Standy+ sayfasını ziyaret edebilirsiniz."
-            },
-            {
-                question: "Standy+ aboneliği ile indirim nasıl kullanılır?",
-                answer: "Anlaşmalı işletmelerde ödeme yaparken kasadaki QR kodu, Standy > Kampanya > Kampanya Kullan bölümüne okutarak kullanabilirsiniz."
-            },
-            {
-                question: "Standy+ aboneliğimi nasıl iptal edebilirim?",
-                answer: "Aboneliğinizi, Standy uygulamasındaki hesap ayarlarınızdan iptal edebilirsiniz."
-            },
-            {
-                question: "Standy+ aboneliği yenilenir mi?",
-                answer: "Evet, aboneliğiniz otomatik olarak seçtiğiniz ödeme döngüsüne göre yenilenir."
-            },
-        ]
-    },
+  
     {
         category: "Üniversiteler",
         questions: [

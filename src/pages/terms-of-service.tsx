@@ -15,32 +15,64 @@ function Terms() {
 
                 <h1 className='text-3xl text-start py-5'>Şartlar ve Koşullar</h1>
 
-                <p>  Son Güncelleme Tarihi: 20.09.2023</p>
+                <p>Son Güncelleme Tarihi: 07.02.2025</p>
 
-                <h2 className="text-2xl mt-4">1. Kişisel Bilgilerin Toplanması ve Kullanılması</h2>
+<h2 className="text-2xl mt-4">1. Giriş</h2>
+<p className="mt-2">Bu Hüküm ve Kullanım Koşulları, Standy Routes uygulamasının kullanımına ilişkin kuralları ve yükümlülükleri belirler. Uygulamamıza erişim sağlayarak bu şartları kabul ettiğinizi onaylamış olursunuz.</p>
 
-                <p className="mt-2">Biz, Standy Routes, müşterilerimizin gizliliğini önemsiyoruz. Bu nedenle, sizden topladığımız kişisel bilgileri korumak ve gizliliğinizi sağlamak için gerekli tüm önlemleri alırız.</p>
+<h2 className="text-2xl mt-4">2. Hizmetin Kapsamı</h2>
+<p className="mt-2">Standy Routes, öğrencilere ve kullanıcılara çeşitli işletmelerde indirimler sunan bir platformdur. Uygulama aracılığıyla kullanıcılar belirli kampanya ve fırsatlara erişim sağlayabilirler.</p>
 
-                <h3 className="text-xl mt-4">1.1. Toplanan Bilgiler</h3>
+<h2 className="text-2xl mt-4">3. Kullanıcı Kayıt ve Hesapları</h2>
+<h3 className="text-xl mt-4">3.1. Kayıt Olma ve Hesap Kullanımı</h3>
+<ul className="list-disc list-inside mt-2">
+    <li>Uygulamanın belirli özelliklerini kullanmak için kayıt olmanız gerekebilir.</li>
+    <li>Kayıt olurken doğru ve eksiksiz bilgi vermeniz gerekmektedir.</li>
+    <li>Hesap bilgilerinizin gizliliğini korumak sizin sorumluluğunuzdadir.</li>
+</ul>
 
-                <ul className="list-disc list-inside mt-2">
-                    <li>Adınız ve soyadınız</li>
-                    <li>E-posta adresiniz</li>
-                    <li>Telefon numaranız</li>
-                    <li>Fatura adresiniz</li>
-                    <li>Ödeme bilgileriniz</li>
-                    <li>Diğer iletişim bilgileri</li>
-                </ul>
+<h3 className="text-xl mt-4">3.2. Hesap Kapatma</h3>
+<ul className="list-disc list-inside mt-2">
+    <li>Standy Routes, kullanıcıların hesaplarını herhangi bir sebeple kapatma hakkını saklı tutar.</li>
+    <li>Kullanıcılar, destek ekibi ile iletişime geçerek hesaplarını silebilir.</li>
+</ul>
 
-                <h3 className="text-xl mt-4">1.2. Kullanım Amaçları</h3>
+<h2 className="text-2xl mt-4">4. Kullanım Koşulları</h2>
+<h3 className="text-xl mt-4">4.1. Kullanıcı Yükümlülükleri</h3>
+<ul className="list-disc list-inside mt-2">
+    <li>Uygulama, yasalara uygun bir şekilde kullanılmalıdır.</li>
+    <li>Diğer kullanıcıların haklarına zarar verecek davranışlardan kaçınmalısınız.</li>
+    <li>Uygulama içeriği Standy Routes'un izni olmadan ticari olarak kullanılamaz.</li>
+</ul>
 
-                <ul className="list-disc list-inside mt-2">
-                    <li>Hizmetlerimizi sağlamak, işlem yapmak ve destek sunmak</li>
-                    <li>İşletmemizle ilgili güncellemeler ve teklifler göndermek</li>
-                    <li>Sizden gelen taleplere yanıt vermek</li>
-                    <li>İşlem geçmişinizi ve tercihlerinizi analiz etmek</li>
-                    <li>Yasal gerekliliklere uymak</li>
-                </ul>
+<h3 className="text-xl mt-4">4.2. Yasaklanan Davranışlar</h3>
+<ul className="list-disc list-inside mt-2">
+    <li>Yanlıltıcı bilgi paylaşmak</li>
+    <li>Hizmetleri kötüye kullanmak veya istismar etmek</li>
+    <li>Diğer kullanıcıları taciz etmek veya rahatsız etmek</li>
+    <li>Uygulama üzerinde yetkisiz erişim veya hackleme girişimleri</li>
+</ul>
+
+<h2 className="text-2xl mt-4">5. Sorumluluk Reddi</h2>
+<ul className="list-disc list-inside mt-2">
+    <li>Standy Routes, uygulama içindeki indirimlerin ve kampanyaların sürekliliğini garanti etmez.</li>
+    <li>Uygulama kullanımından kaynaklanabilecek zararlardan Standy Routes sorumlu tutulamaz.</li>
+</ul>
+
+<h2 className="text-2xl mt-4">6. Gizlilik ve Veri Koruma</h2>
+<p className="mt-2">Kullanıcıların kişisel verileri, Gizlilik Politikası'na uygun olarak işlenmektedir. Daha fazla bilgi için <a href="https://www.standyroutes.com/privacy-policy">Gizlilik Politikamızı</a> inceleyebilirsiniz.</p>
+
+<h2 className="text-2xl mt-4">7. Değişiklikler ve Güncellemeler</h2>
+<ul className="list-disc list-inside mt-2">
+    <li>Standy Routes, bu koşulları dilediği zaman güncelleme hakkını saklı tutar.</li>
+    <li>Güncellenen koşullar uygulama üzerinde yayınlandıktan sonra yürülüğe girer.</li>
+</ul>
+
+<h2 className="text-2xl mt-4">8. İletişim</h2>
+<p className="mt-2">Herhangi bir sorunuz veya geri bildiriminiz için bizimle aşağıdaki adreslerden iletişime geçebilirsiniz:</p>
+<ul className="list-disc list-inside mt-2">
+    <li><strong>E-posta:</strong> help@standyroutes.com</li>
+</ul>
 
 
 
