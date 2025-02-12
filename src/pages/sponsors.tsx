@@ -126,7 +126,7 @@ Standy Sponsorluk ile etkinliklerde sponsor olmak çok kolay! Ürünlerinizi gö
     <Link
     target='_blank'
         className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-        href="https://sponsors.standyroutes.com"
+        href="http://sponsors.standyroutes.com"
 
     >
         İletişime Geç
@@ -303,7 +303,7 @@ Standy Sponsorluk ile etkinliklerde sponsor olmak çok kolay! Ürünlerinizi gö
           <Link
     target='_blank'
         className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-        href="https://sponsors.standyroutes.com"
+        href="http://sponsors.standyroutes.com"
 
     >
         İletişime Geç
