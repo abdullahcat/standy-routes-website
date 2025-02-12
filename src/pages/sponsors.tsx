@@ -61,6 +61,25 @@ const steps = [
 ];
 
 const upcomingEvents = [
+    {
+        name: 'Çin Festivali',
+        date: '7-11 Nisan',
+        location: 'Marmara Üniversitesi',
+        capacity: '450 kişi',
+        image: '/sponsors/cin.jpg'
+      }, {
+        name: 'FocusOn',
+        date: '17-19 Mayıs',
+        location: 'İAFL',
+        capacity: '300 kişi',
+        image: '/sponsors/focus-on.jpeg'
+      }, {
+        name: 'İTÜ Veri Bilimi Zirve',
+        date: '23-25 Mayıs',
+        location: 'İTÜ',
+        capacity: '500 Kişi',
+        image: '/sponsors/veri-bilimi-zirvesi.jpg'
+      },
   {
     name: 'Kültür Haftası',
     date: '10-14 Haziran',
@@ -68,27 +87,9 @@ const upcomingEvents = [
     capacity: '1000 kişi',
     image: '/sponsors/kultur.jpeg'
   },
-  {
-    name: 'İTÜ Veri Bilimi Zirve',
-    date: '23-25 Mayıs',
-    location: 'İTÜ',
-    capacity: '500 Kişi',
-    image: '/sponsors/veri-bilimi-zirvesi.jpg'
-  },
-  {
-    name: 'FocusOn',
-    date: '17-19 Mayıs',
-    location: 'İAFL',
-    capacity: '300 kişi',
-    image: '/sponsors/focus-on.jpeg'
-  },
-  {
-    name: 'Çin Festivali',
-    date: '7-11 Nisan',
-    location: 'Marmara Üniversitesi',
-    capacity: '450 kişi',
-    image: '/sponsors/cin.jpg'
-  }
+  
+  
+ 
 ];
 
 const SponsorsPage: React.FC = () => {
