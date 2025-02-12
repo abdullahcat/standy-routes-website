@@ -6,7 +6,7 @@ function FAQ() {
     return (
         <div>
             <Head>
-                <title>Standy Blog</title>
+                <title>Standy SSS</title>
             </Head>
             <Navbar></Navbar>
 
