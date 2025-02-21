@@ -33,7 +33,7 @@ function Business() {
                 <div className='flex items-center justify-center space-x-2'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out border-cherry-blossom-pink border hover:border-mimi-pink bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                        href="https://apply.business.standyroutes.com"
+                        href="https://business.standyroutes.com"
                         target="_blank"
 
                     >
@@ -162,13 +162,13 @@ function Business() {
                         </div>
                         <div className="p-5 duration-300 transform bg-white   rounded-2xl shadow-sm hover:-translate-y-2">
                             <div className="flex items-center justify-between mb-2">
-                                <p className="text-lg  leading-5">QR Kodunuzu Alın</p>
+                                <p className="text-lg  leading-5">Panel Kurulumu Yapalım</p>
                                 <p className="flex items-center justify-center w-6 h-6  rounded text-deep-purple-accent-400 bg-indigo-50">
                                     2
                                 </p>
                             </div>
                             <p className="text-sm ">
-                                Size özel QR kodunuzu alın ve kasanıza yerleştirin.
+                                Kurulumu yapalım ve nasıl çalıştığını gösterelim.
                             </p>
                         </div>
                         <div className="p-5 duration-300 transform bg-white rounded-2xl shadow-sm hover:-translate-y-2">
@@ -179,7 +179,7 @@ function Business() {
                                 </p>
                             </div>
                             <p className="text-sm ">
-                                Standy paneli üzerinden QR kodunu okutarak indirimleri uygulayın.
+                                Standy paneli üzerinden müşterilerin karekodlarını okutarak indirimleri uygulayın.
                             </p>
                         </div>
                         <div className="p-5 duration-300 transform bg-white rounded-2xl shadow-sm hover:-translate-y-2">

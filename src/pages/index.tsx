@@ -35,24 +35,32 @@ export default function Home() {
                     </p>
 
 
-                    <div className='flex items-center justify-center space-x-2'>
-                        <Link
-                            className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                            href="https://account.standyroutes.com"
-
-                        >
-                            Şimdi Başla
-                        </Link>
-
+                    <div className='flex items-center justify-center'>
+                        <div className="flex flex-row space-x-4">
+                            <Link href="https://apps.apple.com/tr/app/standy-%C3%B6%C4%9Frenci-i-ndirimleri/id6741170791" target="_blank">
+                                <img 
+                                    src="/app-store-badge.svg" 
+                                    alt="Download on the App Store" 
+                                    className="h-16"
+                                />
+                            </Link>
+                            <Link href="https://play.google.com/store/apps/details?id=com.standyroutes.standy" target="_blank">
+                                <img 
+                                    src="/google-play-badge.png" 
+                                    alt="Get it on Google Play" 
+                                    className="h-16"
+                                />
+                            </Link>
+                        </div>
                     </div>
                 </section>
-                <section className="bg-mimi-pink flex justify-center xl:p-0 p-10 items-center w-full h-full">
+                <section className="bg-standy-white flex justify-center xl:p-0 p-10 items-center w-full h-full">
                     <div className="flex flex-col lg:flex-row items-center w-full max-w-screen-xl">
                         <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
-                            <h1 className="text-4xl lg:text-5xl text-black">Çok Yakında</h1>
+                            <h1 className="text-4xl lg:text-5xl text-black">Keşfetmeye Başlayın</h1>
                             <p className="text-lg lg:text-xl  text-gray-700">
                                 Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
-                           
+                          
                         </div>
                         <div className="lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
                             <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">

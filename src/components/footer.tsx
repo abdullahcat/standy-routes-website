@@ -26,7 +26,9 @@ function Footer() {
                                 <li className="mb-4">
                                     <a href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy%20Design%20Outlines.pdf?alt=media&token=b1e2eecc-1c0d-4794-9d52-f2bf4857935c" className="hover:underline">Basın Kiti</a>
                                 </li>
-
+                                <li className="mb-4">
+                                    <Link href="/sponsors" className="hover:underline">Sponsorluk</Link>
+                                </li>
                             </ul>
                         </div>
 
@@ -59,15 +61,15 @@ function Footer() {
                 </div>
                 <hr className="my-6   sm:mx-auto  border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm  sm:text-center ">© 2025 <a href="https://artedeilusion.com/" className="hover:underline">Artes de ilusion™</a>. Tüm Hakları Saklıdır.
+                    <span className="text-sm  sm:text-center ">© 2025 <a href="https://artesdeilusion.com/" className="hover:underline">Artes de ilusion™</a>. Tüm Hakları Saklıdır.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <a href="https://www.instagram.com/standyroutes" className=" hover:text-rose-red">
+                        <a href="https://www.instagram.com/standyturkiye" className=" hover:text-rose-red">
                             <Instagram></Instagram>
 
                             <span className="sr-only">Instagram</span>
                         </a>
-                        <a href="https://x.com/standyturkiye" className="  hover:text-rose-red">
+                        <a href="https://x.com/standyroutes" className="  hover:text-rose-red">
                             <X></X>
                             <span className="sr-only">Twitter</span>
 

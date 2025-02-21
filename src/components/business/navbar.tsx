@@ -74,7 +74,7 @@ function BusinessNavbar() {
                         Giriş Yap
                     </Link>
                     <Link
-                        href="https://apply.business.standyroutes.com"
+                        href="https://business.standyroutes.com"
                         target='_blank'
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
                     >
@@ -86,7 +86,7 @@ function BusinessNavbar() {
                 <div className='items-center flex lg:flex lg:hidden gap-2 flex-row'>
                     <Link
                         className="mx-2 inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                        href="https://apply.business.standyroutes.com"
+                        href="https://business.standyroutes.com"
                         target='_blank'
                     >
                         Başlayalım
