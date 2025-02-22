@@ -36,19 +36,19 @@ export default function Home() {
 
 
                     <div className='flex items-center justify-center'>
-                        <div className="flex flex-row space-x-4">
+                        <div className="flex flex-row space-x-2">
                             <Link href="https://apps.apple.com/tr/app/standy-%C3%B6%C4%9Frenci-i-ndirimleri/id6741170791" target="_blank">
                                 <img 
                                     src="/app-store-badge.svg" 
                                     alt="Download on the App Store" 
-                                    className="h-16"
+                                    className="h-[60px] w-auto object-contain min-w-[180px] transition-transform duration-300 hover:scale-105"
                                 />
                             </Link>
                             <Link href="https://play.google.com/store/apps/details?id=com.standyroutes.standy" target="_blank">
                                 <img 
                                     src="/google-play-badge.png" 
                                     alt="Get it on Google Play" 
-                                    className="h-16"
+                                    className="h-[60px] w-auto object-contain min-w-[180px] transition-transform duration-300 hover:scale-105"
                                 />
                             </Link>
                         </div>
@@ -56,20 +56,25 @@ export default function Home() {
                 </section>
                 <section className="bg-standy-white flex justify-center xl:p-0 p-10 items-center w-full h-full">
                     <div className="flex flex-col lg:flex-row items-center w-full max-w-screen-xl">
-                        <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
-                            <h1 className="text-4xl lg:text-5xl text-black">Keşfetmeye Başlayın</h1>
-                            <p className="text-lg lg:text-xl  text-gray-700">
-                                Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
-                          
-                        </div>
-                        <div className="lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
+                    <div className="lg:order-last lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
                             <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">
                                 <img className="object-cover" src="standy-phone-2.png" alt="" />
                             </div>
                             <div className="w-8/12  md:w-6/12 xl:w-6/12 lg:w-6/12  -ml-16 lg:-ml-32">
                                 <img className="object-cover" src="standy-phone-1.png" alt="" />
                             </div>
+                        </div> <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
+                            <h1 className="text-4xl lg:text-5xl text-black">Keşfetmeye Başlayın</h1>
+                            <p className="text-lg lg:text-xl  text-gray-700">
+                                Standy ile şehrindeki en popüler kafe ve restoranlarında özel indirimlere hemen erişin. Standy uygulamasını indirerek şehrin en sevilen mekanlarında eşsiz fırsatların tadını çıkarın ve her ziyaretinizde daha fazlasını keşfedin. İndirin, gezin, keşfedin, kazanın!                            </p>
+                                <Link
+                            className="  rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
+                            href="/standy-plus"
+
+                        >Nasıl Çalışır?
+                        </Link>
                         </div>
+                         
                     </div>
                 </section>
 
