@@ -18,7 +18,7 @@ function Privacy() {
                 <p>Son Güncelleme Tarihi: 07.02.2025</p>
 
 <h2 className="text-2xl mt-4">1. Giriş</h2>
-<p className="mt-2">Standy Routes olarak, kullanıcılarımızın gizliliğini ve kişisel verilerinin güvenliğini önemsiyoruz. Bu gizlilik politikasy, hangi bilgileri topladığımızı, nasıl kullandığımızı, nasıl sakladığımızı ve kullanıcılarımızın haklarını açıklamaktadır. Uygulamamızı kullanarak bu politikayı kabul etmiş olursunuz.</p>
+<p className="mt-2">Standy  olarak, kullanıcılarımızın gizliliğini ve kişisel verilerinin güvenliğini önemsiyoruz. Bu gizlilik politikasy, hangi bilgileri topladığımızı, nasıl kullandığımızı, nasıl sakladığımızı ve kullanıcılarımızın haklarını açıklamaktadır. Uygulamamızı kullanarak bu politikayı kabul etmiş olursunuz.</p>
 
 <h2 className="text-2xl mt-4">2. Toplanan Bilgiler</h2>
 
@@ -61,7 +61,7 @@ function Privacy() {
 <h2 className="text-2xl mt-4">5. Verilerin Saklanması ve Güvenliği</h2>
 <ul className="list-disc list-inside mt-2">
     <li>Kişisel verileriniz yalnızca gerekli olduğu süre boyunca saklanır ve sonra güvenli bir şekilde silinir.</li>
-    <li>Standy Routes, endüstri standardı güvenlik önlemleri ile verilerinizi korur.</li>
+    <li>Standy , endüstri standardı güvenlik önlemleri ile verilerinizi korur.</li>
     <li>Ancak, internet üzerinden yapılan hiçbir veri aktarımının %100 güvenli olduğu garanti edilemez.</li>
 </ul>
 
@@ -75,15 +75,15 @@ function Privacy() {
     <li>Veri işlenmesine itiraz etme ve pazarlama iletişimlerini reddetme</li>
     <li>Veri taşınabilirliği talep etme</li>
 </ul>
-<p className="mt-2">Bu haklarınızı kullanmak için <strong>privacy@standyroutes.com</strong> adresinden bizimle iletişime geçebilirsiniz.</p>
+<p className="mt-2">Bu haklarınızı kullanmak için <strong>info@standyroutes.com</strong> adresinden bizimle iletişime geçebilirsiniz.</p>
 
 <h2 className="text-2xl mt-4">8. Çocukların Gizliliği</h2>
-<p className="mt-2">Standy Routes, <strong>4 yaş ve üzeri</strong> kullanıcılar için uygundur.</p>
+<p className="mt-2">Standy , <strong>4 yaş ve üzeri</strong> kullanıcılar için uygundur.</p>
 
 <h2 className="text-2xl mt-4">9. İletişim</h2>
 <p className="mt-2">Sorularınız veya geri bildirimleriniz için bizimle aşağıdaki adreslerden iletişime geçebilirsiniz:</p>
 <ul className="list-disc list-inside mt-2">
-    <li><strong>E-posta:</strong> help@standyroutes.com</li>
+    <li><strong>E-posta:</strong> info@standyroutes.com</li>
 </ul>
 
 

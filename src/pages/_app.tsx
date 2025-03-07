@@ -30,6 +30,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/favicon_package/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff" />
+                <meta name="apple-itunes-app" content="app-id=6741170791"></meta>
             </Head>
             <Component {...pageProps} />
         </RootLayout>
