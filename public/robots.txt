@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.standyroutes.com/
+
+# Sitemaps
+Sitemap: https://www.standyroutes.com/sitemap.xml
