@@ -64,7 +64,7 @@ const ZuberRushPage = () => {
             {[
               {
                 title: "Sürükleyici Oynanış",
-                description: "Akıcı kontroller ve dinamik oyun mekanikleri ile kesintisiz bir deneyim",
+                description: "Akıcı ve dinamik oyun mekanikleri ile kesintisiz bir deneyim.",
                 icon: "/games/zuber-rush/player.png"
               },
               {

@@ -262,7 +262,7 @@ Standy Sponsorluk ile etkinliklerde sponsor olmak çok kolay! Ürünlerinizi gö
                               Standy Games
                         </h1>
                         <p className='text-white text-xl'>
-                        Eğlenceli, rekabetçi ve sürükleyici oyunlarla hem keyifli vakit geçir hem de ödüller kazan.                       </p>
+                        Firmanıza özel oluşturduğumuz oyunlarla standınız diğer stantlardan ayrılsın.                  </p>
                         <Link
                             className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
                             href="/games"
