@@ -131,7 +131,7 @@ Standy Sponsorluk ile etkinliklerde sponsor olmak çok kolay! Ürünlerinizi gö
                       </Link>
     <Link
                       target='_blank'
-                          href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy-Sponsorluk.pdf?alt=media&token=1279a301-478b-4e45-ae6a-7f0702c52c13"
+                          href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy-Sponsorluk%20(1).pdf?alt=media&token=aa9190ad-3cbc-4177-94c3-cf6154115062"
                           className="inline-flex items-center justify-center px-5 py-2 text-base   text-standy-pink border border-standy-pink rounded-full hover:bg-standy-pink hover:text-white transition duration-300 ease-in-out w-full sm:w-auto"
                       >
                            Dosyayı indir
@@ -427,7 +427,7 @@ Standy Sponsorluk ile etkinliklerde sponsor olmak çok kolay! Ürünlerinizi gö
                           </Link>
                           <Link
                               target='_blank'
-                              href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy-Sponsorluk.pdf?alt=media&token=1279a301-478b-4e45-ae6a-7f0702c52c13"
+                              href="https://firebasestorage.googleapis.com/v0/b/standy-c3f1e.appspot.com/o/Design%20Outlines%2FStandy-Sponsorluk%20(1).pdf?alt=media&token=aa9190ad-3cbc-4177-94c3-cf6154115062"
                               className="  inline-flex px-5 py-2 rounded-full transition duration-300 ease-in-out border border-white text-white hover:bg-white hover:text-standy-pink"
                           >
                               Dosyayı İndir
