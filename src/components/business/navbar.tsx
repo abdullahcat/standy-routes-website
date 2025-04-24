@@ -63,7 +63,7 @@ function BusinessNavbar() {
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
 
-                    <Link rel="noopener noreferrer" href="mailto:baha@standyroutes.com"
+                    <Link rel="noopener noreferrer" href="https://tally.so/r/wgg54O"
                         target='_blank'
                         className="transition duration-200 ease-in-out hover:bg-mimi-pink  hover:text-standy-black rounded-full px-3 py-1 ">
                         Destek
