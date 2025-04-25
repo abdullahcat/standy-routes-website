@@ -61,7 +61,7 @@ function Footer() {
                 </div>
                 <hr className="my-6   sm:mx-auto  border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm  sm:text-center ">© 2025 <a href="https://artesdeilusion.com/" className="hover:underline">Artes de ilusion™</a>. Tüm Hakları Saklıdır.
+                    <span className="text-sm  sm:text-center ">© 2025 Standy Technologies™. Tüm Hakları Saklıdır.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <a href="https://www.instagram.com/standyturkiye" className=" hover:text-rose-red">

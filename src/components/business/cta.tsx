@@ -3,7 +3,7 @@ import Link from "next/link";
 function BusinessCTA() {
     return (
         <section
-            className="overflow-hidden bg-[url(https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?q=80&w=2824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-top bg-no-repeat"
+            className="overflow-hidden bg-[url(https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg)] bg-cover bg-center bg-no-repeat"
         >
             <div className="bg-black/25 text-white/90">
 

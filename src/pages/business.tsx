@@ -70,7 +70,10 @@ function Business() {
                 <div className="w-full">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl mx-2 mb-4">
-                            İşletmeniz için o kadar çok şey yapıyoruz ki ekrana sığmadı!
+                            İşletmeniz için o kadar çok şey yapıyoruz ki  <span className="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-standy-pink relative inline-block">
+                            <span className="relative text-white"> ekrana sığmadı!
+                            </span>
+                        </span>
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Standy, sadece indirim sunmaz. Size müşteri getirir, görünürlük sağlar ve 
@@ -78,9 +81,9 @@ function Business() {
                         </p>
                     </div>
 
-                    <div className="w-full overflow-hidden relative pt-4">
+                    <div className="w-full overflow-hidden relative h-64 pt-4">
                         <motion.div
-                            className="flex space-x-8 px-4"
+                            className="flex space-x-8 px-4 "
                             animate={{ 
                                 x: [0, -2000]
                             }}
@@ -91,8 +94,8 @@ function Business() {
                             }}
                         >
                             {[...features, ...features, ...features].map((feature, index) => (
-                                <div key={index} className="flex-shrink-0 w-72  ">
-                                    <div className="bg-white rounded-2xl   p-6 hover:bg-mimi-pink transition-shadow duration-300 h-full flex flex-col">
+                                <div key={index} className="flex-shrink-0 w-72 ">
+                                    <div className="bg-white rounded-2xl transform duration-300 hover:scale-105   p-6 hover:bg-mimi-pink     h-full flex flex-col">
                                         <div className="w-14 h-14 mb-6 flex items-center justify-center rounded-full bg-standy-pink text-white flex-shrink-0">
                                             {feature.icon}
                                         </div>
@@ -136,6 +139,14 @@ function Business() {
                                     <span className="mr-2">•</span>
                                     Öğrenci gruplarında tanıtımlar.
                                 </li>
+                                <div className="flex pt-2 justify-start gap-4">
+                                <Link
+                                    href="/sponsors"
+                                     className="inline-flex items-center gap-2 bg-standy-pink text-white px-4 py-2 rounded-full hover:bg-standy-dark-pink transition-colors duration-300"
+                                >
+                                    <span className=" ">Daha fazla</span>
+                                </Link>
+                            </div>
                             </ul>
                         </div>
                         <div className="relative h-96">
@@ -169,7 +180,7 @@ function Business() {
                         <div className="flex flex-col md:flex-row items-center mb-12 relative">
                             <div className="flex-1 order-2 md:order-1">
                                 <div className="bg-white p-5 rounded-3xl shadow-sm mr-6">
-                                    <h3 className="text-lg font-semibold mb-2">Kayıt Olun ve Onaylanın</h3>
+                                    <h3 className="text-2xl mb-2">Kayıt Olun ve Onaylanın</h3>
                                     <p className="text-gray-600 text-sm">İşletmenizle ilgili bilgileri girin ve Standy tarafından onaylanın.</p>
                                 </div>
                             </div>
@@ -183,8 +194,9 @@ function Business() {
                             <div className="w-16 h-16 rounded-full bg-standy-pink text-white flex items-center justify-center text-2xl font-bold z-10 order-1 md:order-2 mb-4 md:mb-0">2</div>
                             <div className="flex-1 order-2 md:order-3">
                                 <div className="bg-white p-5 rounded-3xl shadow-sm ml-6">
-                                    <h3 className="text-lg font-semibold mb-2">Panel Kurulumu Yapalım</h3>
+                                    <h3 className="text-2xl mb-2">Panel Kurulumu Yapalım</h3>
                                     <p className="text-gray-600 text-sm">Kurulumu yapalım ve nasıl çalıştığını gösterelim.</p>
+
                                 </div>
                             </div>
                         </div>
@@ -193,8 +205,9 @@ function Business() {
                         <div className="flex flex-col md:flex-row items-center mb-12 relative">
                             <div className="flex-1 order-2 md:order-1">
                                 <div className="bg-white p-5 rounded-3xl shadow-sm mr-6">
-                                    <h3 className="text-lg font-semibold mb-2">İndirim Uygulayın</h3>
+                                    <h3 className="text-2xl   mb-2">İndirim Uygulayın</h3>
                                     <p className="text-gray-600 text-sm">Standy paneli üzerinden müşterilerin karekodlarını okutarak indirimleri uygulayın.</p>
+                                    
                                 </div>
                             </div>
                             <div className="w-16 h-16 rounded-full bg-standy-pink text-white flex items-center justify-center text-2xl font-bold z-10 order-1 md:order-2 mb-4 md:mb-0">3</div>
@@ -207,7 +220,7 @@ function Business() {
                             <div className="w-16 h-16 rounded-full bg-standy-pink text-white flex items-center justify-center text-2xl font-bold z-10 order-1 md:order-2 mb-4 md:mb-0">4</div>
                             <div className="flex-1 order-2 md:order-3">
                                 <div className="bg-white p-5 rounded-3xl shadow-sm ml-6">
-                                    <h3 className="text-lg font-semibold mb-2">İstatistiklerinizi Takip Edin</h3>
+                                    <h3 className="text-2xl   mb-2">İstatistiklerinizi Takip Edin</h3>
                                     <p className="text-gray-600 text-sm">Tıklanma, reklam, indirim ve kazanç gibi tüm istatistiklerinizi Standy panelinden takip edin.</p>
                                 </div>
                             </div>
@@ -223,9 +236,39 @@ function Business() {
                                 <span className=" ">Hemen Başla</span>
                             </Link>
                         </div>
+                        
                     </div>
                 </div>
+                <div className="mt-16 text-center space-y-4 max-w-screen-sm sm:mx-auto mx-4 p-10 rounded-3xl shadow-xl  bg-white">
+                <h3 className="text-2xl  ">Yardım mı lazım?</h3>
+                <p className="text-lg text-gray-600">
+                                Detaylı kurulum dosyasında kurulum adımlarını inceleyebilirsiniz.
+                            </p>
+                            <div className="flex justify-center gap-4">
+                                <Link
+                                    href="https://standy.gitbook.io/standy-isletme-paneli/"
+                                    target="_blank"
+                                    className="inline-flex items-center gap-2 border hover:border-standy-dark-pink border-standy-pink bg-standy-pink text-white px-4 py-2 rounded-full hover:bg-standy-dark-pink transition-colors duration-300"
+                                >
+                                    <span className=" ">Kurulum Dokümanı</span>
+                                </Link>
+                            </div>
+                            <hr />
+                            <p className="text-lg text-gray-600 mt-8">
+                                Her türlü kurulum yardımı ve sorularınız için 3 soruluk formu doldurun. Hemen sizi arayalım.
+                            </p>
+                                 
+                                <Link
+                                    href="https://tally.so/r/wgg54O"
+                                    target="_blank"
+                                    className="inline-flex items-center gap-2 border border-standy-pink text-standy-pink px-4 py-2 rounded-full hover:bg-standy-pink hover:text-white transition-colors duration-300"
+                                >
+                                    <span className=" ">Kurulum Desteği Al</span>
+                                </Link>
+                         </div>
             </section>
+                        {/* Setup Documentation Section */}
+                        
 
             {/* App Showcase Section */}
             <section className="py-16  ">
