@@ -3,7 +3,7 @@ import '@/app/globals.css';
 import * as React from 'react';
 import Navbar from '@/components/navbar';
 import Link from 'next/link';
-import { Celebration, DiscountOutlined, ExploreOutlined,  MyLocation, RouteOutlined, Storefront, DownloadOutlined, QrCode2Outlined, PlusOne, Campaign, School, TrendingUp, Diamond, DiamondOutlined, SchoolOutlined, CampaignOutlined } from '@mui/icons-material';
+import { Celebration, DiscountOutlined, ExploreOutlined,  MyLocation, RouteOutlined, Storefront, DownloadOutlined, QrCode2Outlined, PlusOne, Campaign, School, TrendingUp, Diamond, DiamondOutlined, SchoolOutlined, CampaignOutlined, LocalActivity, LocalActivityOutlined } from '@mui/icons-material';
 import MainCTA from '@/components/main/cta';
 import { useState } from 'react';
 import { CircularProgress } from '@mui/material';
@@ -68,6 +68,86 @@ export default function Home() {
                         <HowItWorksCarousel />
                     </div>
                 </section>
+ 
+                <section className='py-10'>
+<div className='   mx-auto text-center'>          <h2 className="text-4xl text-black mb-2  text-center ">Standy'de dahası var!</h2>
+          <p className='text-lg lg:text-xl  text-gray-700 mx-auto'>Seyahatinin tadını çıkarman için de çalışıyoruz.</p>
+</div>    
+            <div className="px-4 py-12 mx-auto sm:max-w-xl  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+                    <div className="grid gap-8 row-gap-5 lg:grid-cols-3">
+                        <div className="relative p-px border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
+                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="relative p-5 bg-white rounded-2xl">
+                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                    <div className="flex items-center   justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
+                                        <LocalActivityOutlined></LocalActivityOutlined>
+                                    </div>
+                                    <h6 className="leading-5">Bölge Kodları</h6>
+                                </div>
+                                <p className="mb-2 text-gray-900">
+                                Standy bölge kodları ile ile anlaşmalı mekanlarda ekstra indirimler seni bekliyor.
+                                </p>
+                                <Link
+                          href="/blog/standy-region-codes"
+                          className="inline-block   items-center justify-center   text-sm   text-standy-pink    hover:text-standy-dark-pink transition duration-300 ease-in-out   sm:w-auto"
+                      >
+                          Daha fazla
+                      </Link>
+
+                            </div>
+                        </div>
+                        <div className="relative p-px  border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
+                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="relative p-5 bg-white rounded-full ">
+                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                    <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
+                                        <RouteOutlined></RouteOutlined>
+                                    </div>
+                                    <h6 className=" leading-5">Rotalar</h6>
+                                </div>
+                                <p className="mb-2 text-gray-900">
+                                    Standy ile yüzlerce rota arasından istediğinizi seçebilir, birçok yeni mekan keşfedebilirsin!
+                                </p>
+                                <Link
+                          href="/blog/routes"
+                          className="inline-block   items-center justify-center   text-sm   text-standy-pink    hover:text-standy-dark-pink transition duration-300 ease-in-out   sm:w-auto"
+                      >
+                          Daha fazla
+                      </Link>
+                            </div>
+                        </div>
+                        <div className="relative p-px border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
+                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
+                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
+                            <div className="relative p-5 bg-white rounded-full ">
+                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
+                                    <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
+                                        <ExploreOutlined></ExploreOutlined>
+                                    </div>
+                                    <h6 className="  leading-5">Şehirler</h6>
+                                </div>
+                                <p className="mb-2    text-gray-900">
+                                    Yeni bir şehri tanımak istiyorsan oluşturulmuş şehir rotalarını inceleyebilirsin.
+                                </p>
+                                <Link
+                          href="/blog/routes"
+                          className="inline-block   items-center justify-center   text-sm   text-standy-pink    hover:text-standy-dark-pink transition duration-300 ease-in-out   sm:w-auto"
+                      >
+                          Daha fazla
+                      </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
 
                 <section className=" py-10">
                 <div className="relative px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
@@ -155,8 +235,7 @@ export default function Home() {
                 </div>
 
             </section>
- 
-      {/* Features Section */}
+       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto  px-4">
 <div className='mb-16 mx-auto text-center'>          <h2 className="text-4xl text-black mb-2  text-center ">Mutlu Kullanıcılar Standy Hakkında Ne Diyor?</h2>
