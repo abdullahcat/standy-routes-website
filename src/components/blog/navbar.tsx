@@ -63,9 +63,7 @@ function BlogNavbar() {
                 </div>
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
-                    <Link rel="noopener noreferrer" href="/standy-plus" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
-                        Nasıl Çalışır?
-                    </Link>
+                  
                     <Link rel="noopener noreferrer" href="/sponsors" className="transition duration-200 ease-in-out hover:bg-gray-100 rounded-full px-3 py-1 ">
                         Sponsorluk
                     </Link>
@@ -108,20 +106,7 @@ function BlogNavbar() {
                                 </li>
                             </Link>
 
-
-                            <Link onClick={() => setIsMenuOpen(false)} href="/standy-plus">
-                                <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
-
-                                    <div className='space-x-2 flex flex-row'>
-
-                                        <Verified></Verified>
-                                        <p >Nasıl Çalışır?</p>
-
-                                    </div>
-                                    <ArrowForwardIcon></ArrowForwardIcon>
-                                </li>
-
-                            </Link>
+ 
                             <Link onClick={() => setIsMenuOpen(false)} href="/sponsors">
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
 

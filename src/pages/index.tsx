@@ -3,8 +3,11 @@ import '@/app/globals.css';
 import * as React from 'react';
 import Navbar from '@/components/navbar';
 import Link from 'next/link';
-import { Celebration, DiscountOutlined, ExploreOutlined,  MyLocation, RouteOutlined, Storefront } from '@mui/icons-material';
+import { Celebration, DiscountOutlined, ExploreOutlined,  MyLocation, RouteOutlined, Storefront, DownloadOutlined, QrCode2Outlined, PlusOne, Campaign, School, TrendingUp, Diamond, DiamondOutlined, SchoolOutlined, CampaignOutlined } from '@mui/icons-material';
 import MainCTA from '@/components/main/cta';
+import { useState } from 'react';
+import { CircularProgress } from '@mui/material';
+import { motion } from 'framer-motion';
 
 export default function Home() {
 
@@ -28,10 +31,10 @@ export default function Home() {
                     </div>
 
                     <h1 className='font-condensed uppercase leading-20  font-black lg:text-8xl xl:text-8xl md:text-7xl text-6xl'>
-                        KEŞFEDİN<br /> DENEYİMLEYİN<br />TASARRUF EDİN
+                    YÜZLERCE İNDİRİM <br />TEK UYGULAMA!
                     </h1>
-                    <p className='text-gray-500 text-xl'>
-                        Standy ile şehrini keşfederken sana özel indirimlerinden yararlan.
+                    <p className='text-gray-500 max-w-screen-md mx-auto text-xl'>
+                    Kafeler, restoranlar ve kampüs çevrelerinde anında kullanabileceğin yüzlerce indirim ve kampanya Standy'de!
                     </p>
 
 
@@ -54,89 +57,159 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="bg-standy-white flex justify-center xl:p-0 p-10 items-center w-full h-full">
-                    <div className="flex flex-col lg:flex-row items-center w-full max-w-screen-xl">
-                    <div className="lg:order-last lg:w-1/2 py-10 flex justify-center lg:justify-center items-center">
-                            <div className="w-7/12 md:w-5/12 xl:w-5/12 lg:w-5/12 ">
-                                <img className="object-cover" src="standy-phone-2.png" alt="" />
-                            </div>
-                            <div className="w-8/12  md:w-6/12 xl:w-6/12 lg:w-6/12  -ml-16 lg:-ml-32">
-                                <img className="object-cover" src="standy-phone-1.png" alt="" />
-                            </div>
-                        </div> <div className="lg:w-1/2 flex flex-col justify-center items-start   lg:text-left lg:p-10 space-y-6">
-                            <h1 className="text-4xl lg:text-5xl text-black">Keşfetmeye Başlayın</h1>
-                            <p className="text-lg lg:text-xl  text-gray-700">
-                            Standy ile şehrinizdeki en popüler kafe ve restoranlarda özel indirimlere anında erişin. Standy uygulamasını indirerek, şehrin en sevilen mekanlarında eşsiz fırsatların keyfini çıkarın ve her ziyaretinizde yeni deneyimler keşfedin. Uygulamayı indirin, mekanları gezin, fırsatları keşfedin ve avantajlardan yararlanın!
-</p>
-                                <Link
-                            className="  rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                            href="/standy-plus"
-
-                        >Nasıl Çalışır?
-                        </Link>
+                {/* Standy Nasıl Çalışır? (3 Adımda Açıklama) - Carousel Style */}
+                <section className="py-10  ">
+                    <div className="max-w-screen-lg  mx-auto px-4">
+                    <div className="text-center mb-4">
+                            <span className="inline-block bg-standy-pink/10 text-standy-pink px-4 py-1 rounded-full text-sm font-semibold">Kolayca 1-2-3</span>
                         </div>
+                        <h2 className="text-3xl md:text-4xl   text-center mb-8">Standy Nasıl Çalışır?</h2>
                          
+                        <HowItWorksCarousel />
                     </div>
                 </section>
 
-                <div className="px-4 py-12 mx-auto sm:max-w-xl  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
-                    <div className="grid gap-8 row-gap-5 lg:grid-cols-3">
-                        <div className="relative p-px border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
-                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="relative p-5 bg-white rounded-2xl">
-                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
-                                    <div className="flex items-center   justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
-                                        <DiscountOutlined></DiscountOutlined>
-                                    </div>
-                                    <h6 className="leading-5">Avantajlar</h6>
-                                </div>
-                                <p className="mb-2 text-gray-900">
-                                    Standy uygulaması ile birçok anlaşmalı mekandaki karekodu okutarak Standy indirimlerinden faydalanabilirsin.
-                                </p>
+                <section className=" py-10">
+                <div className="relative px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+                    <div className="absolute inset-0">
+                        <div className="absolute inset-y-0 z-0 w-full h-full bg-standy-white rounded-2xl lg:w-3/4" />
 
+                    </div>
+
+                    <div className="relative">
+                        <h1 className="text-3xl pb-2 ">Öğrenci Misin?</h1>
+                        <p className='pb-5'>Öğrenciler Standy'de Çok Daha Fazla Kazanıyor!</p>
+
+                        <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
+                            <div className="grid gap-12 row-gap-5 md:grid-cols-2">
+
+                                <div className="relative">
+                                    <div className="relative">
+                                        <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+
+                                            <DiscountOutlined></DiscountOutlined>
+                                        </div>
+                                        <h6 className="mb-2 text-xl leading-5">
+                                        Ekstra indirimler ve kampanyalar!
+                                        </h6>
+                                        <p className="text-sm  ">
+                                        Sadece öğrenciler için ekstra indirimler ve özel kampanyalar! Standy ile cebini yormadan favori mekanlarında keyfini çıkar.
+
+                                      </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                                        <CampaignOutlined></CampaignOutlined>
+                                    </div>
+                                    <h6 className="mb-2 text-xl leading-5">
+                                    Özel etkinlikler ve sürpriz ödüller
+
+                                    </h6>
+                                    <p className="text-sm  ">
+                                    Öğrencilere özel düzenlenen etkinliklere katıl, eğlenirken sürpriz ödüller kap! Standy ile her an yeni bir macera seni bekliyor.
+
+
+
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                                        <DiamondOutlined></DiamondOutlined>
+                                    </div>
+                                    <h6 className="mb-2 text-xl leading-5">
+                                    Üniversite çevresinde gizli fırsatlar
+
+                                    </h6>
+                                    <p className="text-sm  ">
+                                    Üniversitenin etrafında gizlenmiş fırsatları Standy ile keşfet! Sadece öğrencilere özel gizli indirimler ve avantajlar parmaklarının ucunda.
+
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <div className="flex items-center     justify-start w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                                        <SchoolOutlined></SchoolOutlined>
+                                    </div>
+                                    <h6 className="mb-2 text-xl leading-5">
+                                    Okul etkinliklerinde sürpriz hediyeler
+                                    </h6>
+                                    <p className="text-sm  ">
+                                    Katıldığın okul etkinliklerinde Standy’den sürpriz hediyeler seni bekliyor! Çekilişler, küçük sürprizler ve eğlenceli anlar seni bulacak.
+
+
+
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="relative p-px  border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
-                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="relative p-5 bg-white rounded-full ">
-                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
-                                    <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
-                                        <RouteOutlined></RouteOutlined>
-                                    </div>
-                                    <h6 className=" leading-5">Rotalar</h6>
-                                </div>
-                                <p className="mb-2 text-gray-900">
-                                    Standy ile yüzlerce rota arasından istediğinizi seçebilir, birçok yeni mekan keşfedebilirsin!
-                                </p>
-
-                            </div>
-                        </div>
-                        <div className="relative p-px border overflow-hidden transition duration-300 transform rounded-2xl   group  shadow-xl">
-                            <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
-                            <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
-                            <div className="relative p-5 bg-white rounded-full ">
-                                <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
-                                    <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full bg-cherry-blossom-pink lg:mb-0">
-                                        <ExploreOutlined></ExploreOutlined>
-                                    </div>
-                                    <h6 className="  leading-5">Yeni Şehirler</h6>
-                                </div>
-                                <p className="mb-2    text-gray-900">
-                                    Yeni bir şehri tanımak istiyorsan oluşturulmuş şehir rotalarını inceleyebilirsin.
-                                </p>
-
+                            <div>
+                                <img
+                                    className="object-cover w-full h-56 rounded-2xl shadow-lg sm:h-96"
+                                    src="https://images.pexels.com/photos/15950150/pexels-photo-15950150/free-photo-of-arkadaslar-erkekler-kadin-oturmak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
+
+            </section>
+ 
+      {/* Features Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-screen-xl mx-auto  px-4">
+<div className='mb-16 mx-auto text-center'>          <h2 className="text-4xl text-black mb-2  text-center ">Mutlu Kullanıcılar Standy Hakkında Ne Diyor?</h2>
+          <p className='text-lg lg:text-xl  text-gray-700 mx-auto'>Gerçek kullanıcı yorumlarıyla Standy deneyimini keşfet.</p>
+</div>          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Merve T.",
+                description: "La Vie Praline ile anlaşmaları çok iyi olmuş. Akaretlerin, Beşiktaşın ve Çengelin en güzel tatlıcısı.",
+                icon: "/main/testimonials/1.png"
+              },
+              {
+                title: "Gözde A.",
+                description: "Çok hızlı büyüyolar ilk kullanıcılarından biriyim. şimdiden bissürü mekanı almışlar.",
+                icon: "/main/testimonials/2.png"
+              },
+              {
+                title: "Sıla A.",
+                description: "Okulumuzdaki etkinliğe sponsor olarak gelmişlerdi. Okulun çevresindeki 15 mekanla anlaşıp bizim için indirim almışlar. Çok Teşekkürler.",
+                icon: "/main/testimonials/3.png"
+              },
+              {
+                title: "Medine S.",
+                description: "Sürekli gittiğim yerden sürekli indirim alıyorum. Günde 50 TL indirim alsam ayda 1500 TL oluyo.",
+                icon: "/main/testimonials/4.png"
+              },
+              {
+                title: "Deniz K.",
+                description: "Date Mekanları Rotaları Gelmiiiiişşşşş",
+                icon: "/main/testimonials/5.png"
+              },
+              {
+                title: "Osman B.",
+                description: "Semtte ne yapacağımı bilmiyosam rotalar çok yardımcı oluyor!",
+                icon: "/main/testimonials/6.png"
+              },
+            ].map((feature, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-neutral-50 p-6 rounded-2xl hover:shadow-lg transition-all"
+              >
+                 <img className='h-14 mb-2' src={feature.icon} alt=""/>
+                <h3 className="text-xl text-black   mb-1">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+ 
 
                 <section className='bg-standy-pink xl:mx-auto mx-4 pt-16 m-10 p-8 text-center text-cherry-blossom-pink max-w-screen-xl rounded-3xl flex flex-col relative'>
                     <img
@@ -147,102 +220,146 @@ export default function Home() {
                     <div className='flex-grow'></div> {/* This pushes the content to the bottom without extra space */}
                     <div className='flex flex-col items-center justify-center space-y-6'>
                         <h1 className='font-condensed uppercase leading-20 font-black lg:text-8xl xl:text-8xl md:text-7xl text-6xl'>
-                            STANDY İLE<br /> CÜZDANINI KORU
+DAHA NEYİ<br /> BEKLİYORSUN?
                         </h1>
                         <p className='text-white text-xl'>
-                            Standy ile benzersiz indirimlerden yararlanın, özel rotaları keşfedin ve şehir maceralarınızı bir üst seviyeye taşıyın!                        </p>
-                        <Link
-                            className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
-                            href="/standy-plus"
-                        >
-                            Keşfet
-                        </Link>
+                        Sen de Standy indir, indirimler ve kampanyalardan yararlanmaya hemen başla!                       </p>
+                      
+
+                    <div className='flex items-center justify-center'>
+                        <div className="flex flex-row space-x-2">
+                            <Link href="https://apps.apple.com/tr/app/standy-%C3%B6%C4%9Frenci-i-ndirimleri/id6741170791" target="_blank">
+                                <img 
+                                    src="/app-store-badge.svg" 
+                                    alt="Download on the App Store" 
+                                    className="h-[60px] w-auto object-contain min-w-[180px] transition-transform duration-300 hover:scale-105"
+                                />
+                            </Link>
+                            <Link href="https://play.google.com/store/apps/details?id=com.standyroutes.standy" target="_blank">
+                                <img 
+                                    src="/google-play-badge.png" 
+                                    alt="Get it on Google Play" 
+                                    className="h-[60px] w-auto object-contain min-w-[180px] transition-transform duration-300 hover:scale-105"
+                                />
+                            </Link>
+                        </div>
+                    </div>
                     </div>
                 </section>
-
-
-                <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
-                    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-
-                        <h2 className="max-w-lg mb-6  text-4xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                            <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
-                                <span className="relative text-white">Standy</span>
-                            </span> ile sana neler sunuyoruz?
-                        </h2>
-
-                    </div>
-                    <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="flex flex-col justify-between p-5 border rounded-2xl shadow-sm">
-                            <div>
-                                <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mimi-pink">
-                                    <DiscountOutlined></DiscountOutlined>
-                                </div>
-                                <h6 className="mb-2  leading-5">İndirimler</h6>
-                                <p className="mb-3 text-sm text-gray-900">
-                                    Standy ile anlaşmalı 200'den fazla mekanda geçerli yüzlerce indirimden istediğiniz zaman, istediğiniz kadar yararlanın.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div className="flex flex-col justify-between p-5 border rounded-2xl shadow-sm">
-                            <div>
-                                <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mimi-pink">
-                                    <MyLocation></MyLocation>
-                                </div>
-                                <h6 className="mb-2  leading-5">Bölge Kodları</h6>
-
-                                <p className="mb-3 text-sm text-gray-900">
-                                    Standy ile şehrin çeşitli bölgelerinde geçerli özel kodları kullanın ve bu bölgelerdeki ayrıcalıklı tekliflerden yararlanın.    </p>                    </div>
-
-                        </div>
-                        <div className="flex flex-col justify-between p-5 border rounded-2xl shadow-sm">
-                            <div>
-                                <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mimi-pink">
-                                    <Storefront></Storefront>
-                                </div>
-                                <h6 className="mb-2  leading-5">Senin Mekanın</h6>
-                                <p className="mb-3 text-sm text-gray-900">
-                                    Beğendiğiniz veya keşfetmek istediğiniz mekanı bizimle paylaşın, biz sizin için o mekanla görüşüp indirim alalım.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div className="flex flex-col justify-between p-5 border rounded-2xl shadow-sm">
-                            <div>
-                                <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mimi-pink">
-                                    <Celebration></Celebration>
-                                </div>
-                                <h6 className="mb-2  leading-5">Özel Etkinlikler </h6>
-                                <p className="mb-3 text-sm text-gray-900">
-                                    Standy sahipliğinde düzenlenecek birçok etkinliğe ücretsiz katılma şansı yakalayın.
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div className="container rounded-2xl bg-standy-white    mx-auto mt-4 p-4 space-y-2  text-center">
-                        <p className="leading-snug text-standy-black text-2xl">Üstelik bütün bu avantajlar tamamen <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-standy-pink relative inline-block">
-                            <span className="relative text-white"> ücretsiz!
-                            </span>
-                        </span>
-                        </p>
-                    </div>
-                    <div className='justify-center flex p-4 '>
-                        <Link
-                            className="mx-2 rounded-full inline-flex px-5 py-2   transition duration-300 ease-in-out bg-standy-pink text-white hover:bg-standy-dark-pink"
-                            href="/standy-plus"
-
-                        >Keşfet
-                        </Link>
-                    </div>
-                </div>
+ 
 
                 <MainCTA></MainCTA>
 
 
 
             </div >
+        </div>
+    );
+}
+
+function HowItWorksCarousel() {
+    const steps = [
+        {
+            img: '/business/main-menu.png',
+            icon: <DownloadOutlined className="text-standy-pink" style={{ fontSize: 28 }} />, // fallback icon
+            title: 'Keşfet',
+            heading: 'Çevrendeki mekanları gör ve kampanyalarını gör.',
+            number: 1,
+        },
+        {
+            img: '/business/select-campaign.png',
+            icon: <ExploreOutlined className="text-standy-pink" style={{ fontSize: 28 }} />, // fallback icon
+            title: 'Seç',
+            heading: 'Dilediğin kampamyayı seç.',
+            number: 2,
+        },
+        {
+            img: '/business/show-qr-code.png',
+            icon: <QrCode2Outlined className="text-standy-pink" style={{ fontSize: 28 }} />, // fallback icon
+            title: 'Kullan',
+            heading: 'Mekanda karekodu kasiyere göster, indirimi anında uygula!',
+            number: 3,
+        },
+    ];
+    const [active, setActive] = useState(0);
+    const [loaded, setLoaded] = useState([false, false, false]);
+
+    // Scroll handler for mobile
+    const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+        const target = e.currentTarget;
+        const scrollLeft = target.scrollLeft;
+        const width = target.offsetWidth;
+        const idx = Math.round(scrollLeft / width);
+        setActive(idx);
+    };
+
+    const handleImageLoad = (idx: number) => {
+        setLoaded(prev => {
+            const copy = [...prev];
+            copy[idx] = true;
+            return copy;
+        });
+    };
+
+    const handleImageError = (idx: number) => {
+        setLoaded(prev => {
+            const copy = [...prev];
+            copy[idx] = false;
+            return copy;
+        });
+    };
+
+    return (
+        <div>
+            {/* Carousel */}
+            <div
+                className="flex md:justify-center gap-8 overflow-x-auto md:overflow-x-visible snap-x snap-mandatory pb-6 scrollbar-hide"
+                style={{ scrollSnapType: 'x mandatory', scrollbarWidth: 'none' }}
+                onScroll={handleScroll}
+            >
+                {steps.map((step, idx) => (
+                    <div
+                        key={idx}
+                        className="flex flex-col items-center min-w-[280px] max-w-[340px] w-full md:w-1/3 snap-center bg-white rounded-3xl   "
+                        style={{ flex: '0 0 80%', maxWidth: 360 }}
+                    >
+                        <div className="w-[260px] h-[520px] flex items-center justify-center mb-4 relative">
+                            {!loaded[idx] && (
+                                <div className="absolute inset-0 flex items-center justify-center z-10 bg-white/60 rounded-2xl">
+                                    <CircularProgress color="secondary" />
+                                </div>
+                            )}
+                            <img
+                                src={step.img}
+                                alt={step.title}
+                                className={`w-full h-full object-contain rounded-2xl transition-opacity duration-300 ${loaded[idx] ? 'opacity-100' : 'opacity-0'}`}
+                                onLoad={() => handleImageLoad(idx)}
+                                onError={() => handleImageError(idx)}
+                                draggable={false}
+                            />
+                        </div>
+                        <div className="flex items-center gap-2 mb-2">
+                            <span className="w-7 h-7 rounded-full bg-standy-pink text-white flex items-center justify-center font-bold text-base">{step.number}</span>
+                            <span className="font-semibold text-gray-900 text-base">{step.title}</span>
+                        </div>
+                        <div className="text-gray-500 text-sm text-center max-w-xs">{step.heading}</div>
+                    </div>
+                ))}
+            </div>
+            {/* Step Dots */}
+            <div className="flex justify-center sm:hidden gap-2 mt-2">
+                {steps.map((_, idx) => (
+                    <button
+                        key={idx}
+                        className={`w-3 h-3 rounded-full transition-all duration-200 ${active === idx ? 'bg-standy-pink' : 'bg-gray-300'}`}
+                        onClick={() => {
+                            document.querySelectorAll('.snap-center')[idx]?.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+                            setActive(idx);
+                        }}
+                        aria-label={`Step ${idx + 1}`}
+                    />
+                ))}
+            </div>
         </div>
     );
 }
