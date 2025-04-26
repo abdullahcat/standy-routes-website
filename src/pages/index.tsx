@@ -263,14 +263,14 @@ function HowItWorksCarousel() {
             img: '/business/main-menu.png',
             icon: <DownloadOutlined className="text-standy-pink" style={{ fontSize: 28 }} />, // fallback icon
             title: 'Keşfet',
-            heading: 'Çevrendeki mekanları gör ve kampanyalarını gör.',
+            heading: 'Çevrendeki mekanları ve kampanyaları gör.',
             number: 1,
         },
         {
             img: '/business/select-campaign.png',
             icon: <ExploreOutlined className="text-standy-pink" style={{ fontSize: 28 }} />, // fallback icon
             title: 'Seç',
-            heading: 'Dilediğin kampamyayı seç.',
+            heading: 'Dilediğin kampanyayı seç.',
             number: 2,
         },
         {
