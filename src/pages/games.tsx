@@ -13,6 +13,13 @@ const games = [
     link: '/game/zuber-rush'
   },
   { 
+    name: 'Limmo Go!', 
+    category: 'Platform', 
+    logo: '/games/limmo-go!.png',
+    link: '/game/limmo-go'
+  },
+
+  { 
     name: 'Snack Racers', 
     category: 'Yarış', 
     logo: '/games/snack-racers.png',
@@ -60,7 +67,7 @@ const GameCard = ({ game, index }: { game: any, index: number }) => {
   );
 
   return game.link ? (
-    <Link href={game.link} target="_blank" className="flex-shrink-0">
+    <Link href={game.link}  className="flex-shrink-0">
       {content}
     </Link>
   ) : (

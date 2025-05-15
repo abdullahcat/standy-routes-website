@@ -119,7 +119,7 @@ function BusinessNavbar() {
                             </Link>
 
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="mailto:baha@standyroutes.com"
+                            <Link onClick={() => setIsMenuOpen(false)} href="https://tally.so/r/wgg54O"
                                 target='_blank'>
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
 
