@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 const PLAY_STORE_URL = "https://limmogo.standy.com.tr";
-const APP_STORE_URL = "https://apps.apple.com/tr/app/zuber-rush/id1793425121";
+const APP_STORE_URL = "https://limmogo.standy.com.tr";
 const WEB_GAME_URL = "https://limmogo.standy.com.tr/";
 
 const LimmoGoPlayRedirect = () => {
@@ -26,14 +26,7 @@ return (
         </p>
         <div className="flex flex-col gap-3 w-full">
          
-          <a
-            href={APP_STORE_URL}
-            className="w-full text-center bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 rounded-lg transition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            App Store
-          </a>
+         
           <a
             href={WEB_GAME_URL}
             className="w-full text-center bg-white border-2 border-black  hover:text-white hover:bg-black text-black font-semibold py-2 rounded-lg transition"

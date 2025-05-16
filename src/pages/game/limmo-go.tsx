@@ -130,10 +130,10 @@ const LimmoGoPage = () => {
      target='_blank'
        whileHover={{ scale: 1.05 }} 
        whileTap={{ scale: 0.95 }}
-       href={storeLink} 
+       href="https://standy.com.tr/games/limmo-go/play" 
        className="mx-2 inline-flex px-5 py-2 rounded-full  transition duration-300 ease-in-out bg-cherry-blossom-pink text-standy-black hover:bg-mimi-pink"
        >
-       Uygulama Mağazanda Görüntüle
+       Oyunu Oyna
      </motion.a>
    </div>
    

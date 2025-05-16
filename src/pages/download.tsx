@@ -4,17 +4,23 @@ import Link from "next/link";
 import { div } from "framer-motion/client";
 import Navbar from "@/components/navbar";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 const AppRedirect = () => {
   const [storeLink, setStoreLink] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const userAgent = navigator.userAgent || navigator.vendor;
 
     if (/android/i.test(userAgent)) {
-      setStoreLink("https://play.google.com/store/apps/details?id=com.standyroutes.standy");
+      const androidLink = "https://play.google.com/store/apps/details?id=com.standyroutes.standy";
+      setStoreLink(androidLink);
+      window.location.href = androidLink;
     } else if (/iPad|iPhone|iPod/.test(userAgent)) {
-      setStoreLink("https://apps.apple.com/tr/app/standy-%C3%B6%C4%9Frenci-i-ndirimleri/id6741170791");
+      const iosLink = "https://apps.apple.com/tr/app/standy-%C3%B6%C4%9Frenci-i-ndirimleri/id6741170791";
+      setStoreLink(iosLink);
+      window.location.href = iosLink;
     } else {
       setStoreLink(null);
     }
