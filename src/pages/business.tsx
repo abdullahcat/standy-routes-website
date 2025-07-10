@@ -259,9 +259,8 @@ function Business() {
                             </p>
                                  
                                 <Link
-                                    href="https://tally.so/r/wgg54O"
-                                    target="_blank"
-                                    className="inline-flex items-center gap-2 border border-standy-pink text-standy-pink px-4 py-2 rounded-full hover:bg-standy-pink hover:text-white transition-colors duration-300"
+                                    href="/business/support"
+                                     className="inline-flex items-center gap-2 border border-standy-pink text-standy-pink px-4 py-2 rounded-full hover:bg-standy-pink hover:text-white transition-colors duration-300"
                                 >
                                     <span className=" ">Kurulum Desteği Al</span>
                                 </Link>
@@ -339,6 +338,12 @@ function Business() {
                                     <div className="w-2 h-2 bg-standy-pink rounded-full"></div>
                                     <span>Kullanıcı etkileşim verileri.</span>
                                 </li>
+                                <Link
+                                    href="/business/download"
+                                     className="inline-flex items-center gap-2 bg-standy-pink text-white px-4 py-2 rounded-full hover:bg-standy-dark-pink transition-colors duration-300"
+                                >
+                                    <span className=" ">Şimdi kullanmaya başlayın!</span>
+                                </Link>
                             </ul>
                         </div>
                         <div className="relative">

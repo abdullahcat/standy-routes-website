@@ -24,7 +24,7 @@ const StandyBusinessPlayRedirect = () => {
                 <title>Standy İşletme Paneline Yönlendiriliyorsunuz...</title>
             </Head>
          
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-500 via-pink-400 to-white">
+    <div className="min-h-screen px-4 flex items-center justify-center bg-gradient-to-br from-pink-500 via-pink-400 to-white">
       <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full flex flex-col items-center">
         <img src="/standylogo.png" alt="Standy İşletme" className="w-32 h-32 mb-8 rounded-xl shadow" />
         <h1 className="text-3xl font-extrabold text-black mb-2">Yönlendiriliyorsunuz...</h1>
