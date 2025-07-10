@@ -2,8 +2,13 @@
 User-agent: *
 Allow: /
 
+# *
+User-agent: *
+Disallow: /404
+Disallow: /not-found
+
 # Host
-Host: https://www.standyroutes.com/
+Host: https://standyroutes.com
 
 # Sitemaps
-Sitemap: https://www.standyroutes.com/sitemap.xml
+Sitemap: https://standyroutes.com/sitemap.xml

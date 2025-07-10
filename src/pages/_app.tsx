@@ -3,10 +3,13 @@ import RootLayout from '@/app/layout';
 import { AppProps } from 'next/app';
 import '@/app/globals.css'
 import Head from 'next/head';
+import { DefaultSeo } from 'next-seo';
+import SEO from '../../next-seo.config';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <RootLayout>
+            <DefaultSeo {...SEO} />
             <Head>
                 {/* Keep only favicons and meta tags here */}
                 <link rel="apple-touch-icon" sizes="57x57" href="/favicon_package/apple-icon-57x57.png" />

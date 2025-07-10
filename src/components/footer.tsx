@@ -37,7 +37,7 @@ function Footer() {
                             <h2 className="mb-6 text-md font-semibold text-standy-light tracking-wide   ">Şirket</h2>
                             <ul  >
                                 <li className="mb-4">
-                                    <a href="mailto:baha@standyroutes.com" target="_blank" className="hover:underline">Bize Ulaşın</a>
+                                    <a href="mailto:info@standyroutes.com" target="_blank" className="hover:underline">Bize Ulaşın</a>
                                 </li>
                                 <li className="mb-4">
                                     <Link href="/faq" className="hover:underline">SSS</Link>
@@ -51,9 +51,12 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link href="/privacy-policy" className="hover:underline">Gizlilik Politikası</Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link href="/terms-of-service" className="hover:underline">Şartlar ve Koşullar
                                     </Link>
+                                </li >
+                                <li className="mb-4">
+                                    <Link href="/kvkk" className="hover:underline">KVKK Aydınlatma Metni</Link>
                                 </li>
                             </ul>
                         </div>
@@ -64,7 +67,7 @@ function Footer() {
                     <span className="text-sm  sm:text-center ">© 2025 Standy Technologies™. Tüm Hakları Saklıdır.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <a href="https://www.instagram.com/standyturkiye" className=" hover:text-rose-red">
+                        <a href="https://www.instagram.com/standy_app" className=" hover:text-rose-red">
                             <Instagram></Instagram>
 
                             <span className="sr-only">Instagram</span>

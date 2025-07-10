@@ -8,16 +8,37 @@ import MainCTA from '@/components/main/cta';
 import { useState } from 'react';
 import { CircularProgress } from '@mui/material';
 import { motion } from 'framer-motion';
+import { NextSeo } from 'next-seo';
 
 export default function Home() {
 
 
     return (
         <div>
-            <Head>
-                <title>Standy</title>
-            </Head>
-
+            <NextSeo
+                title="Standy | Şehrini Keşfet, Hayatını Kolaylaştır"
+                description="Standy ile şehirdeki en iyi mekanları, rotaları ve etkinlikleri keşfet. Hayatını kolaylaştıran öneriler, blog yazıları ve daha fazlası burada!"
+                canonical="https://standyroutes.com/"
+                openGraph={{
+                    url: 'https://standyroutes.com/',
+                    title: 'Standy | Şehrini Keşfet, Hayatını Kolaylaştır',
+                    description: 'Standy ile şehirdeki en iyi mekanları, rotaları ve etkinlikleri keşfet. Hayatını kolaylaştıran öneriler, blog yazıları ve daha fazlası burada!',
+                    images: [
+                        {
+                            url: 'https://standyroutes.com/public/standylogo.png',
+                            width: 800,
+                            height: 600,
+                            alt: 'Standy Logo',
+                        },
+                    ],
+                    site_name: 'Standy',
+                }}
+                twitter={{
+                    handle: '@standyroutes',
+                    site: '@standyroutes',
+                    cardType: 'summary_large_image',
+                }}
+            />
 
 
             <header >

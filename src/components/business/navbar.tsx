@@ -45,7 +45,7 @@ function BusinessNavbar() {
             <div className="container mx-auto w-full max-w-screen-xl xl:px-0 px-4 flex justify-between">
                 <div className="flex space-x-4 items-center justify-center flex-shrink-0 lg:px-0 py-2">
                     <div className="flex items-center justify-center flex-row space-x-1">
-                        <img src="standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
+                        <img src="/standylogo.png" alt="Standy Logo" height={28} width={28} className="   rounded-full" />
                         <div className="font-condensed uppercase mb-1  font-semibold   text-4xl">
                             BUSINESS
                         </div>
@@ -63,8 +63,8 @@ function BusinessNavbar() {
 
                 <div className="items-center  flex-shrink-0 hidden lg:flex">
 
-                    <Link rel="noopener noreferrer" href="https://tally.so/r/wgg54O"
-                        target='_blank'
+                    <Link rel="noopener noreferrer" href="/business/support"
+                         
                         className="transition duration-200 ease-in-out hover:bg-mimi-pink  hover:text-standy-black rounded-full px-3 py-1 ">
                         Destek
                     </Link>
@@ -119,8 +119,8 @@ function BusinessNavbar() {
                             </Link>
 
 
-                            <Link onClick={() => setIsMenuOpen(false)} href="https://tally.so/r/wgg54O"
-                                target='_blank'>
+                            <Link onClick={() => setIsMenuOpen(false)} href="/business/support"
+>
                                 <li className="text-white flex flex-row items-center justify-between px-4 py-5 hover:text-black hover:bg-white">
 
                                     <div className='space-x-2 flex flex-row'>
